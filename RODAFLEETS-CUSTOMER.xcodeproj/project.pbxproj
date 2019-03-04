@@ -1,0 +1,997 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		251661BD6346D1A1E40FECAA /* Pods_RODAFLEETS_CUSTOMERTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA3A9848432F3C037F8E60A /* Pods_RODAFLEETS_CUSTOMERTests.framework */; };
+		8B2085462227E76500DCCEB9 /* UDCornerTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2085452227E76500DCCEB9 /* UDCornerTagView.swift */; };
+		8B2085482227F40100DCCEB9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2085472227F40100DCCEB9 /* MapViewController.swift */; };
+		8B300E02222559A5007F9F03 /* CustomColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B300E01222559A5007F9F03 /* CustomColorView.swift */; };
+		8B300E0422256954007F9F03 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B300E0322256954007F9F03 /* RatingControl.swift */; };
+		8B4870C4222D04EA0085CCAD /* MyUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4870C3222D04EA0085CCAD /* MyUtility.swift */; };
+		8B66E330221313CB0000F22A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E32F221313CB0000F22A /* AppDelegate.swift */; };
+		8B66E335221313CB0000F22A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B66E333221313CB0000F22A /* Main.storyboard */; };
+		8B66E337221313CF0000F22A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B66E336221313CF0000F22A /* Assets.xcassets */; };
+		8B66E33A221313CF0000F22A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B66E338221313CF0000F22A /* LaunchScreen.storyboard */; };
+		8B66E345221313D00000F22A /* RODAFLEETS_CUSTOMERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E344221313D00000F22A /* RODAFLEETS_CUSTOMERTests.swift */; };
+		8B66E350221313D00000F22A /* RODAFLEETS_CUSTOMERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E34F221313D00000F22A /* RODAFLEETS_CUSTOMERUITests.swift */; };
+		8B66E3AE22132AB30000F22A /* bahnschrift.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B66E3AD22132AB30000F22A /* bahnschrift.ttf */; };
+		8B66E3DA22132AD00000F22A /* CompletedOrdersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3B122132ACF0000F22A /* CompletedOrdersTableViewCell.swift */; };
+		8B66E3DB22132AD00000F22A /* CompletedOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3B222132ACF0000F22A /* CompletedOrdersViewController.swift */; };
+		8B66E3DC22132AD00000F22A /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3B422132AD00000F22A /* NotificationTableViewCell.swift */; };
+		8B66E3DD22132AD00000F22A /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3B522132AD00000F22A /* NotificationViewController.swift */; };
+		8B66E3DE22132AD00000F22A /* NewBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3B622132AD00000F22A /* NewBookingViewController.swift */; };
+		8B66E3DF22132AD00000F22A /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3B722132AD00000F22A /* ContactUsViewController.swift */; };
+		8B66E3E022132AD00000F22A /* AboutRodafleetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3B822132AD00000F22A /* AboutRodafleetsViewController.swift */; };
+		8B66E3E122132AD00000F22A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3BA22132AD00000F22A /* SettingsViewController.swift */; };
+		8B66E3E222132AD00000F22A /* DistanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3BC22132AD00000F22A /* DistanceTableViewCell.swift */; };
+		8B66E3E322132AD00000F22A /* TrackingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3BD22132AD00000F22A /* TrackingTableViewCell.swift */; };
+		8B66E3E422132AD00000F22A /* ShipmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3BE22132AD00000F22A /* ShipmentTableViewCell.swift */; };
+		8B66E3E522132AD00000F22A /* OrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3BF22132AD00000F22A /* OrderDetailsViewController.swift */; };
+		8B66E3E722132AD00000F22A /* BookingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3C222132AD00000F22A /* BookingsTableViewCell.swift */; };
+		8B66E3E822132AD00000F22A /* MyBookingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3C322132AD00000F22A /* MyBookingsViewController.swift */; };
+		8B66E3E922132AD00000F22A /* StatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3C522132AD00000F22A /* StatusTableViewCell.swift */; };
+		8B66E3EA22132AD00000F22A /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3C622132AD00000F22A /* HomeTableViewCell.swift */; };
+		8B66E3EB22132AD00000F22A /* HomeMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3C722132AD00000F22A /* HomeMenuTableViewCell.swift */; };
+		8B66E3EC22132AD00000F22A /* TitlesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3C822132AD00000F22A /* TitlesCollectionViewCell.swift */; };
+		8B66E3ED22132AD00000F22A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3C922132AD00000F22A /* HomeViewController.swift */; };
+		8B66E3EE22132AD00000F22A /* ReferAndEarnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3CA22132AD00000F22A /* ReferAndEarnViewController.swift */; };
+		8B66E3EF22132AD00000F22A /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3CC22132AD00000F22A /* ReviewTableViewCell.swift */; };
+		8B66E3F022132AD00000F22A /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3CD22132AD00000F22A /* ReviewViewController.swift */; };
+		8B66E3F122132AD00000F22A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3CF22132AD00000F22A /* Constants.swift */; };
+		8B66E3F322132AD00000F22A /* CustomGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D222132AD00000F22A /* CustomGradientView.swift */; };
+		8B66E3F422132AD00000F22A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D322132AD00000F22A /* CustomButton.swift */; };
+		8B66E3F522132AD00000F22A /* CustomTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D422132AD00000F22A /* CustomTopView.swift */; };
+		8B66E3F622132AD00000F22A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D522132AD00000F22A /* CustomTextField.swift */; };
+		8B66E3F822132AD00000F22A /* CustomBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D722132AD00000F22A /* CustomBorderView.swift */; };
+		8B66E3F922132AD00000F22A /* CustomTextfieldNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D822132AD00000F22A /* CustomTextfieldNew.swift */; };
+		8B66E3FA22132AD00000F22A /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D922132AD00000F22A /* CustomTextView.swift */; };
+		8BC13CEA22268FEB0042138A /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC13CE922268FEB0042138A /* DatePicker.swift */; };
+		9446056341A305BCCE7E9094 /* Pods_RODAFLEETS_CUSTOMER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E664F9518467E6B208779BCB /* Pods_RODAFLEETS_CUSTOMER.framework */; };
+		E2189C9C20BE550DC36E3485 /* Pods_RODAFLEETS_CUSTOMERUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FB98701C0DB2D52FA38D36 /* Pods_RODAFLEETS_CUSTOMERUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B66E341221313D00000F22A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B66E324221313CB0000F22A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B66E32B221313CB0000F22A;
+			remoteInfo = "RODAFLEETS-CUSTOMER";
+		};
+		8B66E34C221313D00000F22A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B66E324221313CB0000F22A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B66E32B221313CB0000F22A;
+			remoteInfo = "RODAFLEETS-CUSTOMER";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		265ABF540C615FA146ED27FA /* Pods-RODAFLEETS-CUSTOMER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-CUSTOMER.release.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-CUSTOMER/Pods-RODAFLEETS-CUSTOMER.release.xcconfig"; sourceTree = "<group>"; };
+		3FD479E724097D18511F72EE /* Pods-RODAFLEETS-CUSTOMERUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-CUSTOMERUITests.release.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-CUSTOMERUITests/Pods-RODAFLEETS-CUSTOMERUITests.release.xcconfig"; sourceTree = "<group>"; };
+		472687A1AB1DA2AACF775BB9 /* Pods-RODAFLEETS-CUSTOMER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-CUSTOMER.debug.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-CUSTOMER/Pods-RODAFLEETS-CUSTOMER.debug.xcconfig"; sourceTree = "<group>"; };
+		8B2085452227E76500DCCEB9 /* UDCornerTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDCornerTagView.swift; sourceTree = "<group>"; };
+		8B2085472227F40100DCCEB9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8B300E01222559A5007F9F03 /* CustomColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColorView.swift; sourceTree = "<group>"; };
+		8B300E0322256954007F9F03 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		8B4870C3222D04EA0085CCAD /* MyUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUtility.swift; sourceTree = "<group>"; };
+		8B66E32C221313CB0000F22A /* RODAFLEETS-CUSTOMER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RODAFLEETS-CUSTOMER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B66E32F221313CB0000F22A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B66E334221313CB0000F22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B66E336221313CF0000F22A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B66E339221313CF0000F22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B66E33B221313CF0000F22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B66E340221313D00000F22A /* RODAFLEETS-CUSTOMERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RODAFLEETS-CUSTOMERTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B66E344221313D00000F22A /* RODAFLEETS_CUSTOMERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RODAFLEETS_CUSTOMERTests.swift; sourceTree = "<group>"; };
+		8B66E346221313D00000F22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B66E34B221313D00000F22A /* RODAFLEETS-CUSTOMERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RODAFLEETS-CUSTOMERUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B66E34F221313D00000F22A /* RODAFLEETS_CUSTOMERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RODAFLEETS_CUSTOMERUITests.swift; sourceTree = "<group>"; };
+		8B66E351221313D00000F22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B66E3AD22132AB30000F22A /* bahnschrift.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bahnschrift.ttf; sourceTree = "<group>"; };
+		8B66E3B122132ACF0000F22A /* CompletedOrdersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedOrdersTableViewCell.swift; sourceTree = "<group>"; };
+		8B66E3B222132ACF0000F22A /* CompletedOrdersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedOrdersViewController.swift; sourceTree = "<group>"; };
+		8B66E3B422132AD00000F22A /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		8B66E3B522132AD00000F22A /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		8B66E3B622132AD00000F22A /* NewBookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewBookingViewController.swift; sourceTree = "<group>"; };
+		8B66E3B722132AD00000F22A /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		8B66E3B822132AD00000F22A /* AboutRodafleetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutRodafleetsViewController.swift; sourceTree = "<group>"; };
+		8B66E3BA22132AD00000F22A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8B66E3BC22132AD00000F22A /* DistanceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistanceTableViewCell.swift; sourceTree = "<group>"; };
+		8B66E3BD22132AD00000F22A /* TrackingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingTableViewCell.swift; sourceTree = "<group>"; };
+		8B66E3BE22132AD00000F22A /* ShipmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShipmentTableViewCell.swift; sourceTree = "<group>"; };
+		8B66E3BF22132AD00000F22A /* OrderDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewController.swift; sourceTree = "<group>"; };
+		8B66E3C222132AD00000F22A /* BookingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingsTableViewCell.swift; sourceTree = "<group>"; };
+		8B66E3C322132AD00000F22A /* MyBookingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBookingsViewController.swift; sourceTree = "<group>"; };
+		8B66E3C522132AD00000F22A /* StatusTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusTableViewCell.swift; sourceTree = "<group>"; };
+		8B66E3C622132AD00000F22A /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		8B66E3C722132AD00000F22A /* HomeMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeMenuTableViewCell.swift; sourceTree = "<group>"; };
+		8B66E3C822132AD00000F22A /* TitlesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitlesCollectionViewCell.swift; sourceTree = "<group>"; };
+		8B66E3C922132AD00000F22A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8B66E3CA22132AD00000F22A /* ReferAndEarnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferAndEarnViewController.swift; sourceTree = "<group>"; };
+		8B66E3CC22132AD00000F22A /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
+		8B66E3CD22132AD00000F22A /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		8B66E3CF22132AD00000F22A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8B66E3D222132AD00000F22A /* CustomGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomGradientView.swift; sourceTree = "<group>"; };
+		8B66E3D322132AD00000F22A /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		8B66E3D422132AD00000F22A /* CustomTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTopView.swift; sourceTree = "<group>"; };
+		8B66E3D522132AD00000F22A /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		8B66E3D722132AD00000F22A /* CustomBorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBorderView.swift; sourceTree = "<group>"; };
+		8B66E3D822132AD00000F22A /* CustomTextfieldNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextfieldNew.swift; sourceTree = "<group>"; };
+		8B66E3D922132AD00000F22A /* CustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		8BC13CE922268FEB0042138A /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		8E6D49D65D05EEC020227633 /* Pods-RODAFLEETS-CUSTOMERTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-CUSTOMERTests.release.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-CUSTOMERTests/Pods-RODAFLEETS-CUSTOMERTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4FB98701C0DB2D52FA38D36 /* Pods_RODAFLEETS_CUSTOMERUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RODAFLEETS_CUSTOMERUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5FAE1581E6A4E9772CAE175 /* Pods-RODAFLEETS-CUSTOMERUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-CUSTOMERUITests.debug.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-CUSTOMERUITests/Pods-RODAFLEETS-CUSTOMERUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBA3A9848432F3C037F8E60A /* Pods_RODAFLEETS_CUSTOMERTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RODAFLEETS_CUSTOMERTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E664F9518467E6B208779BCB /* Pods_RODAFLEETS_CUSTOMER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RODAFLEETS_CUSTOMER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9D82F5B0A96A0E2699353F /* Pods-RODAFLEETS-CUSTOMERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-CUSTOMERTests.debug.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-CUSTOMERTests/Pods-RODAFLEETS-CUSTOMERTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B66E329221313CB0000F22A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9446056341A305BCCE7E9094 /* Pods_RODAFLEETS_CUSTOMER.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B66E33D221313D00000F22A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251661BD6346D1A1E40FECAA /* Pods_RODAFLEETS_CUSTOMERTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B66E348221313D00000F22A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2189C9C20BE550DC36E3485 /* Pods_RODAFLEETS_CUSTOMERUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72236D26656A42EBBB949C3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E664F9518467E6B208779BCB /* Pods_RODAFLEETS_CUSTOMER.framework */,
+				CBA3A9848432F3C037F8E60A /* Pods_RODAFLEETS_CUSTOMERTests.framework */,
+				A4FB98701C0DB2D52FA38D36 /* Pods_RODAFLEETS_CUSTOMERUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B66E323221313CB0000F22A = {
+			isa = PBXGroup;
+			children = (
+				8B66E32E221313CB0000F22A /* RODAFLEETS-CUSTOMER */,
+				8B66E343221313D00000F22A /* RODAFLEETS-CUSTOMERTests */,
+				8B66E34E221313D00000F22A /* RODAFLEETS-CUSTOMERUITests */,
+				8B66E32D221313CB0000F22A /* Products */,
+				C59F96C02CE59BD13E0BBA42 /* Pods */,
+				72236D26656A42EBBB949C3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B66E32D221313CB0000F22A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E32C221313CB0000F22A /* RODAFLEETS-CUSTOMER.app */,
+				8B66E340221313D00000F22A /* RODAFLEETS-CUSTOMERTests.xctest */,
+				8B66E34B221313D00000F22A /* RODAFLEETS-CUSTOMERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B66E32E221313CB0000F22A /* RODAFLEETS-CUSTOMER */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E32F221313CB0000F22A /* AppDelegate.swift */,
+				8B66E3AC22132AB30000F22A /* Font-Roda */,
+				8B66E3CE22132AD00000F22A /* Constants */,
+				8B66E3D022132AD00000F22A /* Views */,
+				8B66E3AF22132ACF0000F22A /* Controllers */,
+				8B66E336221313CF0000F22A /* Assets.xcassets */,
+				8B66E333221313CB0000F22A /* Main.storyboard */,
+				8B66E338221313CF0000F22A /* LaunchScreen.storyboard */,
+				8B66E33B221313CF0000F22A /* Info.plist */,
+			);
+			path = "RODAFLEETS-CUSTOMER";
+			sourceTree = "<group>";
+		};
+		8B66E343221313D00000F22A /* RODAFLEETS-CUSTOMERTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E344221313D00000F22A /* RODAFLEETS_CUSTOMERTests.swift */,
+				8B66E346221313D00000F22A /* Info.plist */,
+			);
+			path = "RODAFLEETS-CUSTOMERTests";
+			sourceTree = "<group>";
+		};
+		8B66E34E221313D00000F22A /* RODAFLEETS-CUSTOMERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E34F221313D00000F22A /* RODAFLEETS_CUSTOMERUITests.swift */,
+				8B66E351221313D00000F22A /* Info.plist */,
+			);
+			path = "RODAFLEETS-CUSTOMERUITests";
+			sourceTree = "<group>";
+		};
+		8B66E3AC22132AB30000F22A /* Font-Roda */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3AD22132AB30000F22A /* bahnschrift.ttf */,
+			);
+			name = "Font-Roda";
+			path = "../../Rodafleets-Customerrr/Rodafleets-Customer/Font-Roda";
+			sourceTree = "<group>";
+		};
+		8B66E3AF22132ACF0000F22A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3B622132AD00000F22A /* NewBookingViewController.swift */,
+				8B66E3B722132AD00000F22A /* ContactUsViewController.swift */,
+				8B66E3B822132AD00000F22A /* AboutRodafleetsViewController.swift */,
+				8B66E3CA22132AD00000F22A /* ReferAndEarnViewController.swift */,
+				8B66E3C422132AD00000F22A /* HomeViewControllers */,
+				8B66E3B022132ACF0000F22A /* CompletedOrdersControllers */,
+				8B66E3B322132AD00000F22A /* NotificationController */,
+				8B66E3B922132AD00000F22A /* SettingsControllers */,
+				8B66E3BB22132AD00000F22A /* Order Details */,
+				8B66E3C122132AD00000F22A /* MyBookingsControllers */,
+				8B66E3CB22132AD00000F22A /* ReviewControllers */,
+				8B2085472227F40100DCCEB9 /* MapViewController.swift */,
+			);
+			name = Controllers;
+			path = "../../Rodafleets-Customerrr/Rodafleets-Customer/Controllers";
+			sourceTree = "<group>";
+		};
+		8B66E3B022132ACF0000F22A /* CompletedOrdersControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3B222132ACF0000F22A /* CompletedOrdersViewController.swift */,
+				8B66E3B122132ACF0000F22A /* CompletedOrdersTableViewCell.swift */,
+			);
+			path = CompletedOrdersControllers;
+			sourceTree = "<group>";
+		};
+		8B66E3B322132AD00000F22A /* NotificationController */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3B522132AD00000F22A /* NotificationViewController.swift */,
+				8B66E3B422132AD00000F22A /* NotificationTableViewCell.swift */,
+			);
+			path = NotificationController;
+			sourceTree = "<group>";
+		};
+		8B66E3B922132AD00000F22A /* SettingsControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3BA22132AD00000F22A /* SettingsViewController.swift */,
+			);
+			path = SettingsControllers;
+			sourceTree = "<group>";
+		};
+		8B66E3BB22132AD00000F22A /* Order Details */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3BF22132AD00000F22A /* OrderDetailsViewController.swift */,
+				8B66E3BC22132AD00000F22A /* DistanceTableViewCell.swift */,
+				8B66E3BE22132AD00000F22A /* ShipmentTableViewCell.swift */,
+				8B66E3BD22132AD00000F22A /* TrackingTableViewCell.swift */,
+			);
+			path = "Order Details";
+			sourceTree = "<group>";
+		};
+		8B66E3C122132AD00000F22A /* MyBookingsControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3C322132AD00000F22A /* MyBookingsViewController.swift */,
+				8B66E3C222132AD00000F22A /* BookingsTableViewCell.swift */,
+			);
+			path = MyBookingsControllers;
+			sourceTree = "<group>";
+		};
+		8B66E3C422132AD00000F22A /* HomeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3C922132AD00000F22A /* HomeViewController.swift */,
+				8B66E3C522132AD00000F22A /* StatusTableViewCell.swift */,
+				8B66E3C622132AD00000F22A /* HomeTableViewCell.swift */,
+				8B66E3C722132AD00000F22A /* HomeMenuTableViewCell.swift */,
+				8B66E3C822132AD00000F22A /* TitlesCollectionViewCell.swift */,
+			);
+			path = HomeViewControllers;
+			sourceTree = "<group>";
+		};
+		8B66E3CB22132AD00000F22A /* ReviewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3CC22132AD00000F22A /* ReviewTableViewCell.swift */,
+				8B66E3CD22132AD00000F22A /* ReviewViewController.swift */,
+			);
+			path = ReviewControllers;
+			sourceTree = "<group>";
+		};
+		8B66E3CE22132AD00000F22A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3CF22132AD00000F22A /* Constants.swift */,
+				8B4870C3222D04EA0085CCAD /* MyUtility.swift */,
+			);
+			name = Constants;
+			path = "../../Rodafleets-Customerrr/Rodafleets-Customer/Constants";
+			sourceTree = "<group>";
+		};
+		8B66E3D022132AD00000F22A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3D422132AD00000F22A /* CustomTopView.swift */,
+				8B66E3D722132AD00000F22A /* CustomBorderView.swift */,
+				8B300E01222559A5007F9F03 /* CustomColorView.swift */,
+				8B66E3D522132AD00000F22A /* CustomTextField.swift */,
+				8B66E3D922132AD00000F22A /* CustomTextView.swift */,
+				8B66E3D322132AD00000F22A /* CustomButton.swift */,
+				8B66E3D222132AD00000F22A /* CustomGradientView.swift */,
+				8B66E3D822132AD00000F22A /* CustomTextfieldNew.swift */,
+				8B300E0322256954007F9F03 /* RatingControl.swift */,
+				8BC13CE922268FEB0042138A /* DatePicker.swift */,
+				8B2085452227E76500DCCEB9 /* UDCornerTagView.swift */,
+			);
+			name = Views;
+			path = "../../Rodafleets-Customerrr/Rodafleets-Customer/Views";
+			sourceTree = "<group>";
+		};
+		C59F96C02CE59BD13E0BBA42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				472687A1AB1DA2AACF775BB9 /* Pods-RODAFLEETS-CUSTOMER.debug.xcconfig */,
+				265ABF540C615FA146ED27FA /* Pods-RODAFLEETS-CUSTOMER.release.xcconfig */,
+				FE9D82F5B0A96A0E2699353F /* Pods-RODAFLEETS-CUSTOMERTests.debug.xcconfig */,
+				8E6D49D65D05EEC020227633 /* Pods-RODAFLEETS-CUSTOMERTests.release.xcconfig */,
+				B5FAE1581E6A4E9772CAE175 /* Pods-RODAFLEETS-CUSTOMERUITests.debug.xcconfig */,
+				3FD479E724097D18511F72EE /* Pods-RODAFLEETS-CUSTOMERUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B66E32B221313CB0000F22A /* RODAFLEETS-CUSTOMER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B66E354221313D00000F22A /* Build configuration list for PBXNativeTarget "RODAFLEETS-CUSTOMER" */;
+			buildPhases = (
+				E5BA478532A87A75E01D18A0 /* [CP] Check Pods Manifest.lock */,
+				8B66E328221313CB0000F22A /* Sources */,
+				8B66E329221313CB0000F22A /* Frameworks */,
+				8B66E32A221313CB0000F22A /* Resources */,
+				06E37A9319CDAF2334BF9C61 /* [CP] Embed Pods Frameworks */,
+				E01BA3BCE7D3FF08FA0AE3BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RODAFLEETS-CUSTOMER";
+			productName = "RODAFLEETS-CUSTOMER";
+			productReference = 8B66E32C221313CB0000F22A /* RODAFLEETS-CUSTOMER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B66E33F221313D00000F22A /* RODAFLEETS-CUSTOMERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B66E357221313D00000F22A /* Build configuration list for PBXNativeTarget "RODAFLEETS-CUSTOMERTests" */;
+			buildPhases = (
+				D9BF94BB15C89788AB6B9697 /* [CP] Check Pods Manifest.lock */,
+				8B66E33C221313D00000F22A /* Sources */,
+				8B66E33D221313D00000F22A /* Frameworks */,
+				8B66E33E221313D00000F22A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B66E342221313D00000F22A /* PBXTargetDependency */,
+			);
+			name = "RODAFLEETS-CUSTOMERTests";
+			productName = "RODAFLEETS-CUSTOMERTests";
+			productReference = 8B66E340221313D00000F22A /* RODAFLEETS-CUSTOMERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B66E34A221313D00000F22A /* RODAFLEETS-CUSTOMERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B66E35A221313D00000F22A /* Build configuration list for PBXNativeTarget "RODAFLEETS-CUSTOMERUITests" */;
+			buildPhases = (
+				F54497FF4F65D72204E7D88E /* [CP] Check Pods Manifest.lock */,
+				8B66E347221313D00000F22A /* Sources */,
+				8B66E348221313D00000F22A /* Frameworks */,
+				8B66E349221313D00000F22A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B66E34D221313D00000F22A /* PBXTargetDependency */,
+			);
+			name = "RODAFLEETS-CUSTOMERUITests";
+			productName = "RODAFLEETS-CUSTOMERUITests";
+			productReference = 8B66E34B221313D00000F22A /* RODAFLEETS-CUSTOMERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B66E324221313CB0000F22A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Neuweg Technologies";
+				TargetAttributes = {
+					8B66E32B221313CB0000F22A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8B66E33F221313D00000F22A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8B66E32B221313CB0000F22A;
+					};
+					8B66E34A221313D00000F22A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8B66E32B221313CB0000F22A;
+					};
+				};
+			};
+			buildConfigurationList = 8B66E327221313CB0000F22A /* Build configuration list for PBXProject "RODAFLEETS-CUSTOMER" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B66E323221313CB0000F22A;
+			productRefGroup = 8B66E32D221313CB0000F22A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B66E32B221313CB0000F22A /* RODAFLEETS-CUSTOMER */,
+				8B66E33F221313D00000F22A /* RODAFLEETS-CUSTOMERTests */,
+				8B66E34A221313D00000F22A /* RODAFLEETS-CUSTOMERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B66E32A221313CB0000F22A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B66E33A221313CF0000F22A /* LaunchScreen.storyboard in Resources */,
+				8B66E337221313CF0000F22A /* Assets.xcassets in Resources */,
+				8B66E335221313CB0000F22A /* Main.storyboard in Resources */,
+				8B66E3AE22132AB30000F22A /* bahnschrift.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B66E33E221313D00000F22A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B66E349221313D00000F22A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06E37A9319CDAF2334BF9C61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RODAFLEETS-CUSTOMER/Pods-RODAFLEETS-CUSTOMER-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RODAFLEETS-CUSTOMER/Pods-RODAFLEETS-CUSTOMER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9BF94BB15C89788AB6B9697 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RODAFLEETS-CUSTOMERTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E01BA3BCE7D3FF08FA0AE3BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RODAFLEETS-CUSTOMER/Pods-RODAFLEETS-CUSTOMER-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RODAFLEETS-CUSTOMER/Pods-RODAFLEETS-CUSTOMER-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5BA478532A87A75E01D18A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RODAFLEETS-CUSTOMER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F54497FF4F65D72204E7D88E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RODAFLEETS-CUSTOMERUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B66E328221313CB0000F22A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B66E3EC22132AD00000F22A /* TitlesCollectionViewCell.swift in Sources */,
+				8BC13CEA22268FEB0042138A /* DatePicker.swift in Sources */,
+				8B300E0422256954007F9F03 /* RatingControl.swift in Sources */,
+				8B66E3EF22132AD00000F22A /* ReviewTableViewCell.swift in Sources */,
+				8B2085462227E76500DCCEB9 /* UDCornerTagView.swift in Sources */,
+				8B66E3E322132AD00000F22A /* TrackingTableViewCell.swift in Sources */,
+				8B66E3E422132AD00000F22A /* ShipmentTableViewCell.swift in Sources */,
+				8B66E3F422132AD00000F22A /* CustomButton.swift in Sources */,
+				8B300E02222559A5007F9F03 /* CustomColorView.swift in Sources */,
+				8B66E3E822132AD00000F22A /* MyBookingsViewController.swift in Sources */,
+				8B66E3F522132AD00000F22A /* CustomTopView.swift in Sources */,
+				8B66E3DC22132AD00000F22A /* NotificationTableViewCell.swift in Sources */,
+				8B66E3F122132AD00000F22A /* Constants.swift in Sources */,
+				8B66E3FA22132AD00000F22A /* CustomTextView.swift in Sources */,
+				8B4870C4222D04EA0085CCAD /* MyUtility.swift in Sources */,
+				8B66E3E522132AD00000F22A /* OrderDetailsViewController.swift in Sources */,
+				8B66E3ED22132AD00000F22A /* HomeViewController.swift in Sources */,
+				8B66E3EA22132AD00000F22A /* HomeTableViewCell.swift in Sources */,
+				8B66E3EB22132AD00000F22A /* HomeMenuTableViewCell.swift in Sources */,
+				8B66E3EE22132AD00000F22A /* ReferAndEarnViewController.swift in Sources */,
+				8B66E3E722132AD00000F22A /* BookingsTableViewCell.swift in Sources */,
+				8B66E3F922132AD00000F22A /* CustomTextfieldNew.swift in Sources */,
+				8B66E3DD22132AD00000F22A /* NotificationViewController.swift in Sources */,
+				8B66E3E122132AD00000F22A /* SettingsViewController.swift in Sources */,
+				8B66E3F622132AD00000F22A /* CustomTextField.swift in Sources */,
+				8B66E3E922132AD00000F22A /* StatusTableViewCell.swift in Sources */,
+				8B66E3F822132AD00000F22A /* CustomBorderView.swift in Sources */,
+				8B66E3DF22132AD00000F22A /* ContactUsViewController.swift in Sources */,
+				8B66E3F022132AD00000F22A /* ReviewViewController.swift in Sources */,
+				8B66E3DB22132AD00000F22A /* CompletedOrdersViewController.swift in Sources */,
+				8B66E3DA22132AD00000F22A /* CompletedOrdersTableViewCell.swift in Sources */,
+				8B66E3E222132AD00000F22A /* DistanceTableViewCell.swift in Sources */,
+				8B2085482227F40100DCCEB9 /* MapViewController.swift in Sources */,
+				8B66E3DE22132AD00000F22A /* NewBookingViewController.swift in Sources */,
+				8B66E330221313CB0000F22A /* AppDelegate.swift in Sources */,
+				8B66E3E022132AD00000F22A /* AboutRodafleetsViewController.swift in Sources */,
+				8B66E3F322132AD00000F22A /* CustomGradientView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B66E33C221313D00000F22A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B66E345221313D00000F22A /* RODAFLEETS_CUSTOMERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B66E347221313D00000F22A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B66E350221313D00000F22A /* RODAFLEETS_CUSTOMERUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B66E342221313D00000F22A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B66E32B221313CB0000F22A /* RODAFLEETS-CUSTOMER */;
+			targetProxy = 8B66E341221313D00000F22A /* PBXContainerItemProxy */;
+		};
+		8B66E34D221313D00000F22A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B66E32B221313CB0000F22A /* RODAFLEETS-CUSTOMER */;
+			targetProxy = 8B66E34C221313D00000F22A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B66E333221313CB0000F22A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B66E334221313CB0000F22A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B66E338221313CF0000F22A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B66E339221313CF0000F22A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B66E352221313D00000F22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B66E353221313D00000F22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B66E355221313D00000F22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 472687A1AB1DA2AACF775BB9 /* Pods-RODAFLEETS-CUSTOMER.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = "RODAFLEETS-CUSTOMER/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neuweg.RODAFLEETS-CUSTOMER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B66E356221313D00000F22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 265ABF540C615FA146ED27FA /* Pods-RODAFLEETS-CUSTOMER.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = "RODAFLEETS-CUSTOMER/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neuweg.RODAFLEETS-CUSTOMER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B66E358221313D00000F22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE9D82F5B0A96A0E2699353F /* Pods-RODAFLEETS-CUSTOMERTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = "RODAFLEETS-CUSTOMERTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neuweg.RODAFLEETS-CUSTOMERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RODAFLEETS-CUSTOMER.app/RODAFLEETS-CUSTOMER";
+			};
+			name = Debug;
+		};
+		8B66E359221313D00000F22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6D49D65D05EEC020227633 /* Pods-RODAFLEETS-CUSTOMERTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = "RODAFLEETS-CUSTOMERTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neuweg.RODAFLEETS-CUSTOMERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RODAFLEETS-CUSTOMER.app/RODAFLEETS-CUSTOMER";
+			};
+			name = Release;
+		};
+		8B66E35B221313D00000F22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5FAE1581E6A4E9772CAE175 /* Pods-RODAFLEETS-CUSTOMERUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = "RODAFLEETS-CUSTOMERUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neuweg.RODAFLEETS-CUSTOMERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RODAFLEETS-CUSTOMER";
+			};
+			name = Debug;
+		};
+		8B66E35C221313D00000F22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FD479E724097D18511F72EE /* Pods-RODAFLEETS-CUSTOMERUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = "RODAFLEETS-CUSTOMERUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neuweg.RODAFLEETS-CUSTOMERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RODAFLEETS-CUSTOMER";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B66E327221313CB0000F22A /* Build configuration list for PBXProject "RODAFLEETS-CUSTOMER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B66E352221313D00000F22A /* Debug */,
+				8B66E353221313D00000F22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B66E354221313D00000F22A /* Build configuration list for PBXNativeTarget "RODAFLEETS-CUSTOMER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B66E355221313D00000F22A /* Debug */,
+				8B66E356221313D00000F22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B66E357221313D00000F22A /* Build configuration list for PBXNativeTarget "RODAFLEETS-CUSTOMERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B66E358221313D00000F22A /* Debug */,
+				8B66E359221313D00000F22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B66E35A221313D00000F22A /* Build configuration list for PBXNativeTarget "RODAFLEETS-CUSTOMERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B66E35B221313D00000F22A /* Debug */,
+				8B66E35C221313D00000F22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B66E324221313CB0000F22A /* Project object */;
+}
