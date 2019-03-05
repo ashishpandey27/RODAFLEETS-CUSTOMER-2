@@ -317,8 +317,8 @@
 		8B66E3CB22132AD00000F22A /* ReviewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				8B66E3CC22132AD00000F22A /* ReviewTableViewCell.swift */,
 				8B66E3CD22132AD00000F22A /* ReviewViewController.swift */,
+				8B66E3CC22132AD00000F22A /* ReviewTableViewCell.swift */,
 			);
 			path = ReviewControllers;
 			sourceTree = "<group>";
