@@ -51,6 +51,8 @@
 		8B66E3F922132AD00000F22A /* CustomTextfieldNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D822132AD00000F22A /* CustomTextfieldNew.swift */; };
 		8B66E3FA22132AD00000F22A /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D922132AD00000F22A /* CustomTextView.swift */; };
 		8BC13CEA22268FEB0042138A /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC13CE922268FEB0042138A /* DatePicker.swift */; };
+		8BD224C0223923FB0021C1B5 /* ShipmentHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD224BF223923FB0021C1B5 /* ShipmentHeaderTableViewCell.swift */; };
+		8BD224C22239240E0021C1B5 /* TrackingHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD224C12239240E0021C1B5 /* TrackingHeaderTableViewCell.swift */; };
 		8BD424A7222FE9CC00E08512 /* MonthAndYearViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD424A6222FE9CB00E08512 /* MonthAndYearViewCell.swift */; };
 		8BF89E8D223629F600C182BA /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF89E8C223629F600C182BA /* ImageCollectionViewCell.swift */; };
 		9446056341A305BCCE7E9094 /* Pods_RODAFLEETS_CUSTOMER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E664F9518467E6B208779BCB /* Pods_RODAFLEETS_CUSTOMER.framework */; };
@@ -127,6 +129,8 @@
 		8B66E3D822132AD00000F22A /* CustomTextfieldNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextfieldNew.swift; sourceTree = "<group>"; };
 		8B66E3D922132AD00000F22A /* CustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
 		8BC13CE922268FEB0042138A /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		8BD224BF223923FB0021C1B5 /* ShipmentHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipmentHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		8BD224C12239240E0021C1B5 /* TrackingHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		8BD424A6222FE9CB00E08512 /* MonthAndYearViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthAndYearViewCell.swift; sourceTree = "<group>"; };
 		8BF89E8C223629F600C182BA /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		8E6D49D65D05EEC020227633 /* Pods-RODAFLEETS-CUSTOMERTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-CUSTOMERTests.release.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-CUSTOMERTests/Pods-RODAFLEETS-CUSTOMERTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -292,6 +296,8 @@
 				8B66E3BC22132AD00000F22A /* DistanceTableViewCell.swift */,
 				8B66E3BE22132AD00000F22A /* ShipmentTableViewCell.swift */,
 				8B66E3BD22132AD00000F22A /* TrackingTableViewCell.swift */,
+				8BD224BF223923FB0021C1B5 /* ShipmentHeaderTableViewCell.swift */,
+				8BD224C12239240E0021C1B5 /* TrackingHeaderTableViewCell.swift */,
 			);
 			path = "Order Details";
 			sourceTree = "<group>";
@@ -638,6 +644,7 @@
 				8B66E3EC22132AD00000F22A /* TitlesCollectionViewCell.swift in Sources */,
 				8BC13CEA22268FEB0042138A /* DatePicker.swift in Sources */,
 				8B300E0422256954007F9F03 /* RatingControl.swift in Sources */,
+				8BD224C22239240E0021C1B5 /* TrackingHeaderTableViewCell.swift in Sources */,
 				8B66E3EF22132AD00000F22A /* ReviewTableViewCell.swift in Sources */,
 				8B2085462227E76500DCCEB9 /* UDCornerTagView.swift in Sources */,
 				8B66E3E322132AD00000F22A /* TrackingTableViewCell.swift in Sources */,
@@ -651,6 +658,7 @@
 				8B66E3F122132AD00000F22A /* Constants.swift in Sources */,
 				8B66E3FA22132AD00000F22A /* CustomTextView.swift in Sources */,
 				8BF89E8D223629F600C182BA /* ImageCollectionViewCell.swift in Sources */,
+				8BD224C0223923FB0021C1B5 /* ShipmentHeaderTableViewCell.swift in Sources */,
 				8B4870C4222D04EA0085CCAD /* MyUtility.swift in Sources */,
 				8B66E3E522132AD00000F22A /* OrderDetailsViewController.swift in Sources */,
 				8B66E3ED22132AD00000F22A /* HomeViewController.swift in Sources */,
