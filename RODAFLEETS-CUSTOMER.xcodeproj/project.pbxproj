@@ -51,6 +51,8 @@
 		8B66E3F922132AD00000F22A /* CustomTextfieldNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D822132AD00000F22A /* CustomTextfieldNew.swift */; };
 		8B66E3FA22132AD00000F22A /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D922132AD00000F22A /* CustomTextView.swift */; };
 		8BC13CEA22268FEB0042138A /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC13CE922268FEB0042138A /* DatePicker.swift */; };
+		8BD424A7222FE9CC00E08512 /* MonthAndYearViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD424A6222FE9CB00E08512 /* MonthAndYearViewCell.swift */; };
+		8BF89E8D223629F600C182BA /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF89E8C223629F600C182BA /* ImageCollectionViewCell.swift */; };
 		9446056341A305BCCE7E9094 /* Pods_RODAFLEETS_CUSTOMER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E664F9518467E6B208779BCB /* Pods_RODAFLEETS_CUSTOMER.framework */; };
 		E2189C9C20BE550DC36E3485 /* Pods_RODAFLEETS_CUSTOMERUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FB98701C0DB2D52FA38D36 /* Pods_RODAFLEETS_CUSTOMERUITests.framework */; };
 /* End PBXBuildFile section */
@@ -125,6 +127,8 @@
 		8B66E3D822132AD00000F22A /* CustomTextfieldNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextfieldNew.swift; sourceTree = "<group>"; };
 		8B66E3D922132AD00000F22A /* CustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
 		8BC13CE922268FEB0042138A /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		8BD424A6222FE9CB00E08512 /* MonthAndYearViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthAndYearViewCell.swift; sourceTree = "<group>"; };
+		8BF89E8C223629F600C182BA /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		8E6D49D65D05EEC020227633 /* Pods-RODAFLEETS-CUSTOMERTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-CUSTOMERTests.release.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-CUSTOMERTests/Pods-RODAFLEETS-CUSTOMERTests.release.xcconfig"; sourceTree = "<group>"; };
 		A4FB98701C0DB2D52FA38D36 /* Pods_RODAFLEETS_CUSTOMERUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RODAFLEETS_CUSTOMERUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5FAE1581E6A4E9772CAE175 /* Pods-RODAFLEETS-CUSTOMERUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-CUSTOMERUITests.debug.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-CUSTOMERUITests/Pods-RODAFLEETS-CUSTOMERUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -239,18 +243,17 @@
 		8B66E3AF22132ACF0000F22A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8B66E3B622132AD00000F22A /* NewBookingViewController.swift */,
 				8B66E3B722132AD00000F22A /* ContactUsViewController.swift */,
 				8B66E3B822132AD00000F22A /* AboutRodafleetsViewController.swift */,
 				8B66E3CA22132AD00000F22A /* ReferAndEarnViewController.swift */,
 				8B66E3C422132AD00000F22A /* HomeViewControllers */,
+				8BF89E8E223631E100C182BA /* NewBookingControllers */,
 				8B66E3B022132ACF0000F22A /* CompletedOrdersControllers */,
 				8B66E3B322132AD00000F22A /* NotificationController */,
 				8B66E3B922132AD00000F22A /* SettingsControllers */,
 				8B66E3BB22132AD00000F22A /* Order Details */,
 				8B66E3C122132AD00000F22A /* MyBookingsControllers */,
 				8B66E3CB22132AD00000F22A /* ReviewControllers */,
-				8B2085472227F40100DCCEB9 /* MapViewController.swift */,
 			);
 			name = Controllers;
 			path = "../../Rodafleets-Customerrr/Rodafleets-Customer/Controllers";
@@ -298,6 +301,7 @@
 			children = (
 				8B66E3C322132AD00000F22A /* MyBookingsViewController.swift */,
 				8B66E3C222132AD00000F22A /* BookingsTableViewCell.swift */,
+				8BD424A6222FE9CB00E08512 /* MonthAndYearViewCell.swift */,
 			);
 			path = MyBookingsControllers;
 			sourceTree = "<group>";
@@ -306,10 +310,11 @@
 			isa = PBXGroup;
 			children = (
 				8B66E3C922132AD00000F22A /* HomeViewController.swift */,
-				8B66E3C522132AD00000F22A /* StatusTableViewCell.swift */,
 				8B66E3C622132AD00000F22A /* HomeTableViewCell.swift */,
+				8B66E3C522132AD00000F22A /* StatusTableViewCell.swift */,
 				8B66E3C722132AD00000F22A /* HomeMenuTableViewCell.swift */,
 				8B66E3C822132AD00000F22A /* TitlesCollectionViewCell.swift */,
+				8BF89E8C223629F600C182BA /* ImageCollectionViewCell.swift */,
 			);
 			path = HomeViewControllers;
 			sourceTree = "<group>";
@@ -350,6 +355,15 @@
 			);
 			name = Views;
 			path = "../../Rodafleets-Customerrr/Rodafleets-Customer/Views";
+			sourceTree = "<group>";
+		};
+		8BF89E8E223631E100C182BA /* NewBookingControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3B622132AD00000F22A /* NewBookingViewController.swift */,
+				8B2085472227F40100DCCEB9 /* MapViewController.swift */,
+			);
+			path = NewBookingControllers;
 			sourceTree = "<group>";
 		};
 		C59F96C02CE59BD13E0BBA42 /* Pods */ = {
@@ -632,9 +646,11 @@
 				8B300E02222559A5007F9F03 /* CustomColorView.swift in Sources */,
 				8B66E3E822132AD00000F22A /* MyBookingsViewController.swift in Sources */,
 				8B66E3F522132AD00000F22A /* CustomTopView.swift in Sources */,
+				8BD424A7222FE9CC00E08512 /* MonthAndYearViewCell.swift in Sources */,
 				8B66E3DC22132AD00000F22A /* NotificationTableViewCell.swift in Sources */,
 				8B66E3F122132AD00000F22A /* Constants.swift in Sources */,
 				8B66E3FA22132AD00000F22A /* CustomTextView.swift in Sources */,
+				8BF89E8D223629F600C182BA /* ImageCollectionViewCell.swift in Sources */,
 				8B4870C4222D04EA0085CCAD /* MyUtility.swift in Sources */,
 				8B66E3E522132AD00000F22A /* OrderDetailsViewController.swift in Sources */,
 				8B66E3ED22132AD00000F22A /* HomeViewController.swift in Sources */,
