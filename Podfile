@@ -10,6 +10,7 @@ pod 'IQKeyboardManagerSwift'
 pod 'GoogleMaps'
 pod 'GooglePlaces'
 pod 'GooglePlacePicker'
+pod 'TRON', '4.0'
 
   # Pods for RODAFLEETS-CUSTOMER
 

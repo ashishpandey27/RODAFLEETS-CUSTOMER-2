@@ -15,6 +15,11 @@ import GooglePlaces
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    func sharedInstance() -> AppDelegate{
+        
+        return UIApplication.shared.delegate as! AppDelegate
+    }
 
 //AIzaSyD7ITDU45N_7_-kvUmQE1yIiRIwfGDO8uc
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

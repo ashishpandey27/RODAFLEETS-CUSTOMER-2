@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		251661BD6346D1A1E40FECAA /* Pods_RODAFLEETS_CUSTOMERTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA3A9848432F3C037F8E60A /* Pods_RODAFLEETS_CUSTOMERTests.framework */; };
+		8B004193224A0E6F006E786C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B004192224A0E6F006E786C /* LoginViewController.swift */; };
+		8B004195224A0E7F006E786C /* SignUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B004194224A0E7F006E786C /* SignUPViewController.swift */; };
+		8B004197224A0F85006E786C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B004196224A0F85006E786C /* MainViewController.swift */; };
+		8B004199224A3AB5006E786C /* VerifyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B004198224A3AB5006E786C /* VerifyNumber.swift */; };
+		8B00419B224A4E55006E786C /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B00419A224A4E55006E786C /* PopUpViewController.swift */; };
 		8B2085462227E76500DCCEB9 /* UDCornerTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2085452227E76500DCCEB9 /* UDCornerTagView.swift */; };
 		8B2085482227F40100DCCEB9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2085472227F40100DCCEB9 /* MapViewController.swift */; };
 		8B300E02222559A5007F9F03 /* CustomColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B300E01222559A5007F9F03 /* CustomColorView.swift */; };
@@ -54,6 +59,11 @@
 		8BD224C0223923FB0021C1B5 /* ShipmentHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD224BF223923FB0021C1B5 /* ShipmentHeaderTableViewCell.swift */; };
 		8BD224C22239240E0021C1B5 /* TrackingHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD224C12239240E0021C1B5 /* TrackingHeaderTableViewCell.swift */; };
 		8BD424A7222FE9CC00E08512 /* MonthAndYearViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD424A6222FE9CB00E08512 /* MonthAndYearViewCell.swift */; };
+		8BE458A02246029000DDC9B9 /* VerifyOtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4589F2246029000DDC9B9 /* VerifyOtpViewController.swift */; };
+		8BE458A222460B9A00DDC9B9 /* CustomTextfieldOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE458A122460B9A00DDC9B9 /* CustomTextfieldOTP.swift */; };
+		8BE458A622461E5600DDC9B9 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE458A522461E5600DDC9B9 /* SignUp.swift */; };
+		8BE458A82246373B00DDC9B9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE458A72246373B00DDC9B9 /* Service.swift */; };
+		8BE458AA2246569A00DDC9B9 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE458A92246569A00DDC9B9 /* Login.swift */; };
 		8BF89E8D223629F600C182BA /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF89E8C223629F600C182BA /* ImageCollectionViewCell.swift */; };
 		9446056341A305BCCE7E9094 /* Pods_RODAFLEETS_CUSTOMER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E664F9518467E6B208779BCB /* Pods_RODAFLEETS_CUSTOMER.framework */; };
 		E2189C9C20BE550DC36E3485 /* Pods_RODAFLEETS_CUSTOMERUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FB98701C0DB2D52FA38D36 /* Pods_RODAFLEETS_CUSTOMERUITests.framework */; };
@@ -80,6 +90,11 @@
 		265ABF540C615FA146ED27FA /* Pods-RODAFLEETS-CUSTOMER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-CUSTOMER.release.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-CUSTOMER/Pods-RODAFLEETS-CUSTOMER.release.xcconfig"; sourceTree = "<group>"; };
 		3FD479E724097D18511F72EE /* Pods-RODAFLEETS-CUSTOMERUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-CUSTOMERUITests.release.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-CUSTOMERUITests/Pods-RODAFLEETS-CUSTOMERUITests.release.xcconfig"; sourceTree = "<group>"; };
 		472687A1AB1DA2AACF775BB9 /* Pods-RODAFLEETS-CUSTOMER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-CUSTOMER.debug.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-CUSTOMER/Pods-RODAFLEETS-CUSTOMER.debug.xcconfig"; sourceTree = "<group>"; };
+		8B004192224A0E6F006E786C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8B004194224A0E7F006E786C /* SignUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPViewController.swift; sourceTree = "<group>"; };
+		8B004196224A0F85006E786C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8B004198224A3AB5006E786C /* VerifyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyNumber.swift; sourceTree = "<group>"; };
+		8B00419A224A4E55006E786C /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		8B2085452227E76500DCCEB9 /* UDCornerTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDCornerTagView.swift; sourceTree = "<group>"; };
 		8B2085472227F40100DCCEB9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		8B300E01222559A5007F9F03 /* CustomColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColorView.swift; sourceTree = "<group>"; };
@@ -132,6 +147,11 @@
 		8BD224BF223923FB0021C1B5 /* ShipmentHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipmentHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		8BD224C12239240E0021C1B5 /* TrackingHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		8BD424A6222FE9CB00E08512 /* MonthAndYearViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthAndYearViewCell.swift; sourceTree = "<group>"; };
+		8BE4589F2246029000DDC9B9 /* VerifyOtpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyOtpViewController.swift; sourceTree = "<group>"; };
+		8BE458A122460B9A00DDC9B9 /* CustomTextfieldOTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextfieldOTP.swift; sourceTree = "<group>"; };
+		8BE458A522461E5600DDC9B9 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		8BE458A72246373B00DDC9B9 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		8BE458A92246569A00DDC9B9 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		8BF89E8C223629F600C182BA /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		8E6D49D65D05EEC020227633 /* Pods-RODAFLEETS-CUSTOMERTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-CUSTOMERTests.release.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-CUSTOMERTests/Pods-RODAFLEETS-CUSTOMERTests.release.xcconfig"; sourceTree = "<group>"; };
 		A4FB98701C0DB2D52FA38D36 /* Pods_RODAFLEETS_CUSTOMERUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RODAFLEETS_CUSTOMERUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -205,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				8B66E32F221313CB0000F22A /* AppDelegate.swift */,
+				8BE458A422461E3E00DDC9B9 /* Modal */,
 				8B66E3AC22132AB30000F22A /* Font-Roda */,
 				8B66E3CE22132AD00000F22A /* Constants */,
 				8B66E3D022132AD00000F22A /* Views */,
@@ -239,6 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				8B66E3AD22132AB30000F22A /* bahnschrift.ttf */,
+				8BE458A322461E3300DDC9B9 /* Modal */,
 			);
 			name = "Font-Roda";
 			path = "../../Rodafleets-Customerrr/Rodafleets-Customer/Font-Roda";
@@ -250,6 +272,7 @@
 				8B66E3B722132AD00000F22A /* ContactUsViewController.swift */,
 				8B66E3B822132AD00000F22A /* AboutRodafleetsViewController.swift */,
 				8B66E3CA22132AD00000F22A /* ReferAndEarnViewController.swift */,
+				8BE127C522421CBE007052C1 /* LoginControllers */,
 				8B66E3C422132AD00000F22A /* HomeViewControllers */,
 				8BF89E8E223631E100C182BA /* NewBookingControllers */,
 				8B66E3B022132ACF0000F22A /* CompletedOrdersControllers */,
@@ -358,9 +381,40 @@
 				8B300E0322256954007F9F03 /* RatingControl.swift */,
 				8BC13CE922268FEB0042138A /* DatePicker.swift */,
 				8B2085452227E76500DCCEB9 /* UDCornerTagView.swift */,
+				8BE458A122460B9A00DDC9B9 /* CustomTextfieldOTP.swift */,
 			);
 			name = Views;
 			path = "../../Rodafleets-Customerrr/Rodafleets-Customer/Views";
+			sourceTree = "<group>";
+		};
+		8BE127C522421CBE007052C1 /* LoginControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B004196224A0F85006E786C /* MainViewController.swift */,
+				8B004192224A0E6F006E786C /* LoginViewController.swift */,
+				8B004194224A0E7F006E786C /* SignUPViewController.swift */,
+				8BE4589F2246029000DDC9B9 /* VerifyOtpViewController.swift */,
+				8B00419A224A4E55006E786C /* PopUpViewController.swift */,
+			);
+			path = LoginControllers;
+			sourceTree = "<group>";
+		};
+		8BE458A322461E3300DDC9B9 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		8BE458A422461E3E00DDC9B9 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				8BE458A72246373B00DDC9B9 /* Service.swift */,
+				8BE458A522461E5600DDC9B9 /* SignUp.swift */,
+				8BE458A92246569A00DDC9B9 /* Login.swift */,
+				8B004198224A3AB5006E786C /* VerifyNumber.swift */,
+			);
+			path = Modal;
 			sourceTree = "<group>";
 		};
 		8BF89E8E223631E100C182BA /* NewBookingControllers */ = {
@@ -527,15 +581,21 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RODAFLEETS-CUSTOMER/Pods-RODAFLEETS-CUSTOMER-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TRON/TRON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TRON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -642,6 +702,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B66E3EC22132AD00000F22A /* TitlesCollectionViewCell.swift in Sources */,
+				8BE458A02246029000DDC9B9 /* VerifyOtpViewController.swift in Sources */,
 				8BC13CEA22268FEB0042138A /* DatePicker.swift in Sources */,
 				8B300E0422256954007F9F03 /* RatingControl.swift in Sources */,
 				8BD224C22239240E0021C1B5 /* TrackingHeaderTableViewCell.swift in Sources */,
@@ -650,13 +711,17 @@
 				8B66E3E322132AD00000F22A /* TrackingTableViewCell.swift in Sources */,
 				8B66E3E422132AD00000F22A /* ShipmentTableViewCell.swift in Sources */,
 				8B66E3F422132AD00000F22A /* CustomButton.swift in Sources */,
+				8B00419B224A4E55006E786C /* PopUpViewController.swift in Sources */,
 				8B300E02222559A5007F9F03 /* CustomColorView.swift in Sources */,
 				8B66E3E822132AD00000F22A /* MyBookingsViewController.swift in Sources */,
+				8BE458A622461E5600DDC9B9 /* SignUp.swift in Sources */,
+				8BE458A222460B9A00DDC9B9 /* CustomTextfieldOTP.swift in Sources */,
 				8B66E3F522132AD00000F22A /* CustomTopView.swift in Sources */,
 				8BD424A7222FE9CC00E08512 /* MonthAndYearViewCell.swift in Sources */,
 				8B66E3DC22132AD00000F22A /* NotificationTableViewCell.swift in Sources */,
 				8B66E3F122132AD00000F22A /* Constants.swift in Sources */,
 				8B66E3FA22132AD00000F22A /* CustomTextView.swift in Sources */,
+				8BE458AA2246569A00DDC9B9 /* Login.swift in Sources */,
 				8BF89E8D223629F600C182BA /* ImageCollectionViewCell.swift in Sources */,
 				8BD224C0223923FB0021C1B5 /* ShipmentHeaderTableViewCell.swift in Sources */,
 				8B4870C4222D04EA0085CCAD /* MyUtility.swift in Sources */,
@@ -664,7 +729,10 @@
 				8B66E3ED22132AD00000F22A /* HomeViewController.swift in Sources */,
 				8B66E3EA22132AD00000F22A /* HomeTableViewCell.swift in Sources */,
 				8B66E3EB22132AD00000F22A /* HomeMenuTableViewCell.swift in Sources */,
+				8B004195224A0E7F006E786C /* SignUPViewController.swift in Sources */,
+				8B004193224A0E6F006E786C /* LoginViewController.swift in Sources */,
 				8B66E3EE22132AD00000F22A /* ReferAndEarnViewController.swift in Sources */,
+				8B004199224A3AB5006E786C /* VerifyNumber.swift in Sources */,
 				8B66E3E722132AD00000F22A /* BookingsTableViewCell.swift in Sources */,
 				8B66E3F922132AD00000F22A /* CustomTextfieldNew.swift in Sources */,
 				8B66E3DD22132AD00000F22A /* NotificationViewController.swift in Sources */,
@@ -678,6 +746,8 @@
 				8B66E3DA22132AD00000F22A /* CompletedOrdersTableViewCell.swift in Sources */,
 				8B66E3E222132AD00000F22A /* DistanceTableViewCell.swift in Sources */,
 				8B2085482227F40100DCCEB9 /* MapViewController.swift in Sources */,
+				8B004197224A0F85006E786C /* MainViewController.swift in Sources */,
+				8BE458A82246373B00DDC9B9 /* Service.swift in Sources */,
 				8B66E3DE22132AD00000F22A /* NewBookingViewController.swift in Sources */,
 				8B66E330221313CB0000F22A /* AppDelegate.swift in Sources */,
 				8B66E3E022132AD00000F22A /* AboutRodafleetsViewController.swift in Sources */,
