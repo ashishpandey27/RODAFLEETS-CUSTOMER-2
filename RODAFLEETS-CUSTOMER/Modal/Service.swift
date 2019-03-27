@@ -63,6 +63,18 @@ struct Service {
         }
     }
     
+    func fetchResendOTP(param : NSDictionary, completion: @escaping (ResendOTPdataFeteched) -> ()) {
+        
+        let request : APIRequest<ResendOTPdataFeteched, JSONZError> = tron.swiftyJSON.request(API.API_RESEND_OTP)
+        request.method = .post
+        request.parameters  = param as! [String : Any]
+        request.perform(withSuccess: { (ResendOTPdataFeteched) in
+            
+            completion(ResendOTPdataFeteched)
+        }) { (JSONZError) in
+            print("Json Error")
+        }
+    }
     
         
     }

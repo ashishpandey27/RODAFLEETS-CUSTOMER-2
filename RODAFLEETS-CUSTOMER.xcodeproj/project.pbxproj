@@ -13,6 +13,7 @@
 		8B004197224A0F85006E786C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B004196224A0F85006E786C /* MainViewController.swift */; };
 		8B004199224A3AB5006E786C /* VerifyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B004198224A3AB5006E786C /* VerifyNumber.swift */; };
 		8B00419B224A4E55006E786C /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B00419A224A4E55006E786C /* PopUpViewController.swift */; };
+		8B1A7463224B8195000188F1 /* ResendOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A7462224B8195000188F1 /* ResendOTP.swift */; };
 		8B2085462227E76500DCCEB9 /* UDCornerTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2085452227E76500DCCEB9 /* UDCornerTagView.swift */; };
 		8B2085482227F40100DCCEB9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2085472227F40100DCCEB9 /* MapViewController.swift */; };
 		8B300E02222559A5007F9F03 /* CustomColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B300E01222559A5007F9F03 /* CustomColorView.swift */; };
@@ -95,6 +96,7 @@
 		8B004196224A0F85006E786C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8B004198224A3AB5006E786C /* VerifyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyNumber.swift; sourceTree = "<group>"; };
 		8B00419A224A4E55006E786C /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		8B1A7462224B8195000188F1 /* ResendOTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResendOTP.swift; sourceTree = "<group>"; };
 		8B2085452227E76500DCCEB9 /* UDCornerTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDCornerTagView.swift; sourceTree = "<group>"; };
 		8B2085472227F40100DCCEB9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		8B300E01222559A5007F9F03 /* CustomColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColorView.swift; sourceTree = "<group>"; };
@@ -413,6 +415,7 @@
 				8BE458A522461E5600DDC9B9 /* SignUp.swift */,
 				8BE458A92246569A00DDC9B9 /* Login.swift */,
 				8B004198224A3AB5006E786C /* VerifyNumber.swift */,
+				8B1A7462224B8195000188F1 /* ResendOTP.swift */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -751,6 +754,7 @@
 				8B66E3DE22132AD00000F22A /* NewBookingViewController.swift in Sources */,
 				8B66E330221313CB0000F22A /* AppDelegate.swift in Sources */,
 				8B66E3E022132AD00000F22A /* AboutRodafleetsViewController.swift in Sources */,
+				8B1A7463224B8195000188F1 /* ResendOTP.swift in Sources */,
 				8B66E3F322132AD00000F22A /* CustomGradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

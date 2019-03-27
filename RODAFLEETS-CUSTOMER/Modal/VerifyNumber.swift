@@ -13,6 +13,7 @@ import TRON
 struct VerifyMobile : Decodable {
     
      var mobile_no  : Int = 0
+     var otp : String = ""
 }
 
 struct VerifyMobileData : Decodable {
@@ -57,8 +58,8 @@ class VerifyMobileDataFeteched : JSONDecodable {
         let company            = json["data"]["results"]["user"]["company"].stringValue
         let gstin              = json["data"]["results"]["user"]["gstin"].stringValue
         let type               = json["data"]["results"]["user"]["type"].intValue
-        let status             = json["data"]["results"]["user"]["otp"].stringValue
-        let otp                = json["data"]["results"]["user"]["pan"].stringValue
+        let status             = json["data"]["results"]["user"]["status"].stringValue
+        let otp                = json["data"]["results"]["user"]["otp"].stringValue
         let otp_created_at     = json["data"]["results"]["user"]["otp_created_at"].stringValue
         let is_verified        = json["data"]["results"]["user"]["is_verified"].stringValue
         let created_at         = json["data"]["results"]["user"]["created_at"].stringValue
