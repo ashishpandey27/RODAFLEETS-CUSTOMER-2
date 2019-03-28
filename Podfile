@@ -11,6 +11,7 @@ pod 'GoogleMaps'
 pod 'GooglePlaces'
 pod 'GooglePlacePicker'
 pod 'TRON', '4.0'
+pod 'SVProgressHUD'
 
   # Pods for RODAFLEETS-CUSTOMER
 
