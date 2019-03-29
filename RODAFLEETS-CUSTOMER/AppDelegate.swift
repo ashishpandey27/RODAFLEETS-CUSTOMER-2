@@ -10,6 +10,7 @@ import UIKit
 import IQKeyboardManagerSwift
 import GoogleMaps
 import GooglePlaces
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -24,6 +25,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //AIzaSyD7ITDU45N_7_-kvUmQE1yIiRIwfGDO8uc
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+      
         
         IQKeyboardManager.shared.enable = true
         GMSServices.provideAPIKey("AIzaSyD7ITDU45N_7_-kvUmQE1yIiRIwfGDO8uc")
@@ -52,9 +55,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-    
-    
-   
 
     
     func login() {

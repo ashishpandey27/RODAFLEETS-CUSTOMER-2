@@ -19,6 +19,7 @@
 		8B300E02222559A5007F9F03 /* CustomColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B300E01222559A5007F9F03 /* CustomColorView.swift */; };
 		8B300E0422256954007F9F03 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B300E0322256954007F9F03 /* RatingControl.swift */; };
 		8B4870C4222D04EA0085CCAD /* MyUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4870C3222D04EA0085CCAD /* MyUtility.swift */; };
+		8B496E4E224DF04200608B78 /* CustomTextfieldLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B496E4D224DF04200608B78 /* CustomTextfieldLogin.swift */; };
 		8B66E330221313CB0000F22A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E32F221313CB0000F22A /* AppDelegate.swift */; };
 		8B66E335221313CB0000F22A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B66E333221313CB0000F22A /* Main.storyboard */; };
 		8B66E337221313CF0000F22A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B66E336221313CF0000F22A /* Assets.xcassets */; };
@@ -56,6 +57,7 @@
 		8B66E3F822132AD00000F22A /* CustomBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D722132AD00000F22A /* CustomBorderView.swift */; };
 		8B66E3F922132AD00000F22A /* CustomTextfieldNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D822132AD00000F22A /* CustomTextfieldNew.swift */; };
 		8B66E3FA22132AD00000F22A /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D922132AD00000F22A /* CustomTextView.swift */; };
+		8BBAF29B224CF46100FCA650 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BBAF29A224CF46000FCA650 /* GoogleService-Info.plist */; };
 		8BC13CEA22268FEB0042138A /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC13CE922268FEB0042138A /* DatePicker.swift */; };
 		8BD224C0223923FB0021C1B5 /* ShipmentHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD224BF223923FB0021C1B5 /* ShipmentHeaderTableViewCell.swift */; };
 		8BD224C22239240E0021C1B5 /* TrackingHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD224C12239240E0021C1B5 /* TrackingHeaderTableViewCell.swift */; };
@@ -102,6 +104,7 @@
 		8B300E01222559A5007F9F03 /* CustomColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColorView.swift; sourceTree = "<group>"; };
 		8B300E0322256954007F9F03 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		8B4870C3222D04EA0085CCAD /* MyUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUtility.swift; sourceTree = "<group>"; };
+		8B496E4D224DF04200608B78 /* CustomTextfieldLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextfieldLogin.swift; sourceTree = "<group>"; };
 		8B66E32C221313CB0000F22A /* RODAFLEETS-CUSTOMER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RODAFLEETS-CUSTOMER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B66E32F221313CB0000F22A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B66E334221313CB0000F22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -145,6 +148,7 @@
 		8B66E3D722132AD00000F22A /* CustomBorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBorderView.swift; sourceTree = "<group>"; };
 		8B66E3D822132AD00000F22A /* CustomTextfieldNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextfieldNew.swift; sourceTree = "<group>"; };
 		8B66E3D922132AD00000F22A /* CustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		8BBAF29A224CF46000FCA650 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8BC13CE922268FEB0042138A /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
 		8BD224BF223923FB0021C1B5 /* ShipmentHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipmentHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		8BD224C12239240E0021C1B5 /* TrackingHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingHeaderTableViewCell.swift; sourceTree = "<group>"; };
@@ -236,6 +240,7 @@
 				8B66E333221313CB0000F22A /* Main.storyboard */,
 				8B66E338221313CF0000F22A /* LaunchScreen.storyboard */,
 				8B66E33B221313CF0000F22A /* Info.plist */,
+				8BBAF29A224CF46000FCA650 /* GoogleService-Info.plist */,
 			);
 			path = "RODAFLEETS-CUSTOMER";
 			sourceTree = "<group>";
@@ -384,6 +389,7 @@
 				8BC13CE922268FEB0042138A /* DatePicker.swift */,
 				8B2085452227E76500DCCEB9 /* UDCornerTagView.swift */,
 				8BE458A122460B9A00DDC9B9 /* CustomTextfieldOTP.swift */,
+				8B496E4D224DF04200608B78 /* CustomTextfieldLogin.swift */,
 			);
 			name = Views;
 			path = "../../Rodafleets-Customerrr/Rodafleets-Customer/Views";
@@ -553,6 +559,7 @@
 			files = (
 				8B66E33A221313CF0000F22A /* LaunchScreen.storyboard in Resources */,
 				8B66E337221313CF0000F22A /* Assets.xcassets in Resources */,
+				8BBAF29B224CF46100FCA650 /* GoogleService-Info.plist in Resources */,
 				8B66E335221313CB0000F22A /* Main.storyboard in Resources */,
 				8B66E3AE22132AB30000F22A /* bahnschrift.ttf in Resources */,
 			);
@@ -586,10 +593,12 @@
 				"${PODS_ROOT}/Target Support Files/Pods-RODAFLEETS-CUSTOMER/Pods-RODAFLEETS-CUSTOMER-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/TRON/TRON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -597,10 +606,12 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TRON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -725,6 +736,7 @@
 				8BD424A7222FE9CC00E08512 /* MonthAndYearViewCell.swift in Sources */,
 				8B66E3DC22132AD00000F22A /* NotificationTableViewCell.swift in Sources */,
 				8B66E3F122132AD00000F22A /* Constants.swift in Sources */,
+				8B496E4E224DF04200608B78 /* CustomTextfieldLogin.swift in Sources */,
 				8B66E3FA22132AD00000F22A /* CustomTextView.swift in Sources */,
 				8BE458AA2246569A00DDC9B9 /* Login.swift in Sources */,
 				8BF89E8D223629F600C182BA /* ImageCollectionViewCell.swift in Sources */,

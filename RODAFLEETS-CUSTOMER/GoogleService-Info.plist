@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>310428251506-uki2gah9d3l8o4v3icuq7knh670dmoet.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.310428251506-uki2gah9d3l8o4v3icuq7knh670dmoet</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCGStkTOvaemGv7vVtThrELemTSZlnO4WQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>310428251506</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>neuweg.RODAFLEETS-CUSTOMER</string>
+	<key>PROJECT_ID</key>
+	<string>rodafleets-custo-1551336969446</string>
+	<key>STORAGE_BUCKET</key>
+	<string>rodafleets-custo-1551336969446.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:310428251506:ios:ad80459c0f610a8d</string>
+	<key>DATABASE_URL</key>
+	<string>https://rodafleets-custo-1551336969446.firebaseio.com</string>
+</dict>
+</plist>
