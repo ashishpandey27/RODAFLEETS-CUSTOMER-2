@@ -1,0 +1,1145 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BC42CCC4B7E40E061B7199B /* Pods_Rodafleets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA88E5A0BB7D3FEE56FBFF44 /* Pods_Rodafleets.framework */; };
+		8B004193224A0E6F006E786C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B004192224A0E6F006E786C /* LoginViewController.swift */; };
+		8B004195224A0E7F006E786C /* SignUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B004194224A0E7F006E786C /* SignUPViewController.swift */; };
+		8B004197224A0F85006E786C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B004196224A0F85006E786C /* MainViewController.swift */; };
+		8B004199224A3AB5006E786C /* VerifyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B004198224A3AB5006E786C /* VerifyNumber.swift */; };
+		8B00419B224A4E55006E786C /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B00419A224A4E55006E786C /* PopUpViewController.swift */; };
+		8B1A7463224B8195000188F1 /* ResendOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A7462224B8195000188F1 /* ResendOTP.swift */; };
+		8B2085462227E76500DCCEB9 /* UDCornerTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2085452227E76500DCCEB9 /* UDCornerTagView.swift */; };
+		8B2085482227F40100DCCEB9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2085472227F40100DCCEB9 /* MapViewController.swift */; };
+		8B300E02222559A5007F9F03 /* CustomColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B300E01222559A5007F9F03 /* CustomColorView.swift */; };
+		8B300E0422256954007F9F03 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B300E0322256954007F9F03 /* RatingControl.swift */; };
+		8B4870C4222D04EA0085CCAD /* MyUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4870C3222D04EA0085CCAD /* MyUtility.swift */; };
+		8B496E4E224DF04200608B78 /* CustomTextfieldLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B496E4D224DF04200608B78 /* CustomTextfieldLogin.swift */; };
+		8B66E330221313CB0000F22A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E32F221313CB0000F22A /* AppDelegate.swift */; };
+		8B66E335221313CB0000F22A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B66E333221313CB0000F22A /* Main.storyboard */; };
+		8B66E337221313CF0000F22A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B66E336221313CF0000F22A /* Assets.xcassets */; };
+		8B66E33A221313CF0000F22A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B66E338221313CF0000F22A /* LaunchScreen.storyboard */; };
+		8B66E345221313D00000F22A /* RODAFLEETS_CUSTOMERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E344221313D00000F22A /* RODAFLEETS_CUSTOMERTests.swift */; };
+		8B66E350221313D00000F22A /* RODAFLEETS_CUSTOMERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E34F221313D00000F22A /* RODAFLEETS_CUSTOMERUITests.swift */; };
+		8B66E3AE22132AB30000F22A /* bahnschrift.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B66E3AD22132AB30000F22A /* bahnschrift.ttf */; };
+		8B66E3DA22132AD00000F22A /* CompletedOrdersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3B122132ACF0000F22A /* CompletedOrdersTableViewCell.swift */; };
+		8B66E3DB22132AD00000F22A /* CompletedOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3B222132ACF0000F22A /* CompletedOrdersViewController.swift */; };
+		8B66E3DC22132AD00000F22A /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3B422132AD00000F22A /* NotificationTableViewCell.swift */; };
+		8B66E3DD22132AD00000F22A /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3B522132AD00000F22A /* NotificationViewController.swift */; };
+		8B66E3DE22132AD00000F22A /* NewBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3B622132AD00000F22A /* NewBookingViewController.swift */; };
+		8B66E3DF22132AD00000F22A /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3B722132AD00000F22A /* ContactUsViewController.swift */; };
+		8B66E3E022132AD00000F22A /* AboutRodafleetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3B822132AD00000F22A /* AboutRodafleetsViewController.swift */; };
+		8B66E3E122132AD00000F22A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3BA22132AD00000F22A /* SettingsViewController.swift */; };
+		8B66E3E222132AD00000F22A /* DistanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3BC22132AD00000F22A /* DistanceTableViewCell.swift */; };
+		8B66E3E322132AD00000F22A /* TrackingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3BD22132AD00000F22A /* TrackingTableViewCell.swift */; };
+		8B66E3E422132AD00000F22A /* ShipmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3BE22132AD00000F22A /* ShipmentTableViewCell.swift */; };
+		8B66E3E522132AD00000F22A /* OrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3BF22132AD00000F22A /* OrderDetailsViewController.swift */; };
+		8B66E3E722132AD00000F22A /* BookingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3C222132AD00000F22A /* BookingsTableViewCell.swift */; };
+		8B66E3E822132AD00000F22A /* MyBookingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3C322132AD00000F22A /* MyBookingsViewController.swift */; };
+		8B66E3E922132AD00000F22A /* StatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3C522132AD00000F22A /* StatusTableViewCell.swift */; };
+		8B66E3EA22132AD00000F22A /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3C622132AD00000F22A /* HomeTableViewCell.swift */; };
+		8B66E3EB22132AD00000F22A /* HomeMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3C722132AD00000F22A /* HomeMenuTableViewCell.swift */; };
+		8B66E3EC22132AD00000F22A /* TitlesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3C822132AD00000F22A /* TitlesCollectionViewCell.swift */; };
+		8B66E3ED22132AD00000F22A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3C922132AD00000F22A /* HomeViewController.swift */; };
+		8B66E3EE22132AD00000F22A /* ReferAndEarnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3CA22132AD00000F22A /* ReferAndEarnViewController.swift */; };
+		8B66E3EF22132AD00000F22A /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3CC22132AD00000F22A /* ReviewTableViewCell.swift */; };
+		8B66E3F022132AD00000F22A /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3CD22132AD00000F22A /* ReviewViewController.swift */; };
+		8B66E3F122132AD00000F22A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3CF22132AD00000F22A /* Constants.swift */; };
+		8B66E3F322132AD00000F22A /* CustomGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D222132AD00000F22A /* CustomGradientView.swift */; };
+		8B66E3F422132AD00000F22A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D322132AD00000F22A /* CustomButton.swift */; };
+		8B66E3F522132AD00000F22A /* CustomTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D422132AD00000F22A /* CustomTopView.swift */; };
+		8B66E3F622132AD00000F22A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D522132AD00000F22A /* CustomTextField.swift */; };
+		8B66E3F822132AD00000F22A /* CustomBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D722132AD00000F22A /* CustomBorderView.swift */; };
+		8B66E3F922132AD00000F22A /* CustomTextfieldNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D822132AD00000F22A /* CustomTextfieldNew.swift */; };
+		8B66E3FA22132AD00000F22A /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D922132AD00000F22A /* CustomTextView.swift */; };
+		8BA683CE2253446F007D15B7 /* VehicleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA683CD2253446F007D15B7 /* VehicleType.swift */; };
+		8BBE4A6F22520DEA0007A355 /* CustomViewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE4A6E22520DEA0007A355 /* CustomViewImage.swift */; };
+		8BBE4A75225237E50007A355 /* UploadDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE4A74225237E50007A355 /* UploadDocument.swift */; };
+		8BC13CEA22268FEB0042138A /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC13CE922268FEB0042138A /* DatePicker.swift */; };
+		8BCB88BD22560F4700973225 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BCB88BC22560F4700973225 /* GoogleService-Info.plist */; };
+		8BD224C0223923FB0021C1B5 /* ShipmentHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD224BF223923FB0021C1B5 /* ShipmentHeaderTableViewCell.swift */; };
+		8BD224C22239240E0021C1B5 /* TrackingHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD224C12239240E0021C1B5 /* TrackingHeaderTableViewCell.swift */; };
+		8BD424A7222FE9CC00E08512 /* MonthAndYearViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD424A6222FE9CB00E08512 /* MonthAndYearViewCell.swift */; };
+		8BE458A02246029000DDC9B9 /* VerifyOtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4589F2246029000DDC9B9 /* VerifyOtpViewController.swift */; };
+		8BE458A222460B9A00DDC9B9 /* CustomTextfieldOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE458A122460B9A00DDC9B9 /* CustomTextfieldOTP.swift */; };
+		8BE458A622461E5600DDC9B9 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE458A522461E5600DDC9B9 /* SignUp.swift */; };
+		8BE458A82246373B00DDC9B9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE458A72246373B00DDC9B9 /* Service.swift */; };
+		8BE458AA2246569A00DDC9B9 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE458A92246569A00DDC9B9 /* Login.swift */; };
+		8BF89E8D223629F600C182BA /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF89E8C223629F600C182BA /* ImageCollectionViewCell.swift */; };
+		8BFBC37F225159E800DD0626 /* UploadDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBC37E225159E700DD0626 /* UploadDocumentViewController.swift */; };
+		9301CA62AAFF2A62D5FECC7E /* Pods_RodafleetsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1D833F8D491955A7E15DC8 /* Pods_RodafleetsTests.framework */; };
+		CDDDEE7264F4D5C5E41E4E85 /* Pods_RodafleetsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB3D8CAD5C25284003A1710 /* Pods_RodafleetsUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B66E341221313D00000F22A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B66E324221313CB0000F22A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B66E32B221313CB0000F22A;
+			remoteInfo = "RODAFLEETS-CUSTOMER";
+		};
+		8B66E34C221313D00000F22A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B66E324221313CB0000F22A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B66E32B221313CB0000F22A;
+			remoteInfo = "RODAFLEETS-CUSTOMER";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DB3D8CAD5C25284003A1710 /* Pods_RodafleetsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RodafleetsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B4C365761C27590781A0F3 /* Pods-RodafleetsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RodafleetsUITests.release.xcconfig"; path = "Target Support Files/Pods-RodafleetsUITests/Pods-RodafleetsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F9633B15704085C792981D9 /* Pods-RodafleetsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RodafleetsUITests.debug.xcconfig"; path = "Target Support Files/Pods-RodafleetsUITests/Pods-RodafleetsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F6AE917732A78BE18EC7D4A /* Pods-RodafleetsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RodafleetsTests.release.xcconfig"; path = "Target Support Files/Pods-RodafleetsTests/Pods-RodafleetsTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B004192224A0E6F006E786C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8B004194224A0E7F006E786C /* SignUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPViewController.swift; sourceTree = "<group>"; };
+		8B004196224A0F85006E786C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8B004198224A3AB5006E786C /* VerifyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyNumber.swift; sourceTree = "<group>"; };
+		8B00419A224A4E55006E786C /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		8B1A7462224B8195000188F1 /* ResendOTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResendOTP.swift; sourceTree = "<group>"; };
+		8B2085452227E76500DCCEB9 /* UDCornerTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDCornerTagView.swift; sourceTree = "<group>"; };
+		8B2085472227F40100DCCEB9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8B300E01222559A5007F9F03 /* CustomColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColorView.swift; sourceTree = "<group>"; };
+		8B300E0322256954007F9F03 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		8B4870C3222D04EA0085CCAD /* MyUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUtility.swift; sourceTree = "<group>"; };
+		8B496E4D224DF04200608B78 /* CustomTextfieldLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextfieldLogin.swift; sourceTree = "<group>"; };
+		8B66E32C221313CB0000F22A /* Rodafleets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rodafleets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B66E32F221313CB0000F22A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B66E334221313CB0000F22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B66E336221313CF0000F22A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B66E339221313CF0000F22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B66E33B221313CF0000F22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B66E340221313D00000F22A /* RodafleetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RodafleetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B66E344221313D00000F22A /* RODAFLEETS_CUSTOMERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RODAFLEETS_CUSTOMERTests.swift; sourceTree = "<group>"; };
+		8B66E346221313D00000F22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B66E34B221313D00000F22A /* RodafleetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RodafleetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B66E34F221313D00000F22A /* RODAFLEETS_CUSTOMERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RODAFLEETS_CUSTOMERUITests.swift; sourceTree = "<group>"; };
+		8B66E351221313D00000F22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B66E3AD22132AB30000F22A /* bahnschrift.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bahnschrift.ttf; sourceTree = "<group>"; };
+		8B66E3B122132ACF0000F22A /* CompletedOrdersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedOrdersTableViewCell.swift; sourceTree = "<group>"; };
+		8B66E3B222132ACF0000F22A /* CompletedOrdersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedOrdersViewController.swift; sourceTree = "<group>"; };
+		8B66E3B422132AD00000F22A /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		8B66E3B522132AD00000F22A /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		8B66E3B622132AD00000F22A /* NewBookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewBookingViewController.swift; sourceTree = "<group>"; };
+		8B66E3B722132AD00000F22A /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		8B66E3B822132AD00000F22A /* AboutRodafleetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutRodafleetsViewController.swift; sourceTree = "<group>"; };
+		8B66E3BA22132AD00000F22A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8B66E3BC22132AD00000F22A /* DistanceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistanceTableViewCell.swift; sourceTree = "<group>"; };
+		8B66E3BD22132AD00000F22A /* TrackingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingTableViewCell.swift; sourceTree = "<group>"; };
+		8B66E3BE22132AD00000F22A /* ShipmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShipmentTableViewCell.swift; sourceTree = "<group>"; };
+		8B66E3BF22132AD00000F22A /* OrderDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewController.swift; sourceTree = "<group>"; };
+		8B66E3C222132AD00000F22A /* BookingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingsTableViewCell.swift; sourceTree = "<group>"; };
+		8B66E3C322132AD00000F22A /* MyBookingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBookingsViewController.swift; sourceTree = "<group>"; };
+		8B66E3C522132AD00000F22A /* StatusTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusTableViewCell.swift; sourceTree = "<group>"; };
+		8B66E3C622132AD00000F22A /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		8B66E3C722132AD00000F22A /* HomeMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeMenuTableViewCell.swift; sourceTree = "<group>"; };
+		8B66E3C822132AD00000F22A /* TitlesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitlesCollectionViewCell.swift; sourceTree = "<group>"; };
+		8B66E3C922132AD00000F22A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8B66E3CA22132AD00000F22A /* ReferAndEarnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferAndEarnViewController.swift; sourceTree = "<group>"; };
+		8B66E3CC22132AD00000F22A /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
+		8B66E3CD22132AD00000F22A /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		8B66E3CF22132AD00000F22A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8B66E3D222132AD00000F22A /* CustomGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomGradientView.swift; sourceTree = "<group>"; };
+		8B66E3D322132AD00000F22A /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		8B66E3D422132AD00000F22A /* CustomTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTopView.swift; sourceTree = "<group>"; };
+		8B66E3D522132AD00000F22A /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		8B66E3D722132AD00000F22A /* CustomBorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBorderView.swift; sourceTree = "<group>"; };
+		8B66E3D822132AD00000F22A /* CustomTextfieldNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextfieldNew.swift; sourceTree = "<group>"; };
+		8B66E3D922132AD00000F22A /* CustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		8BA683CD2253446F007D15B7 /* VehicleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleType.swift; sourceTree = "<group>"; };
+		8BBE4A6E22520DEA0007A355 /* CustomViewImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewImage.swift; sourceTree = "<group>"; };
+		8BBE4A74225237E50007A355 /* UploadDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadDocument.swift; sourceTree = "<group>"; };
+		8BBE4A7622523E150007A355 /* RODAFLEETS-CUSTOMER.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "RODAFLEETS-CUSTOMER.entitlements"; sourceTree = "<group>"; };
+		8BC13CE922268FEB0042138A /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		8BCB88BC22560F4700973225 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8BCB88BE225616BA00973225 /* Rodafleets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rodafleets.entitlements; sourceTree = "<group>"; };
+		8BD224BF223923FB0021C1B5 /* ShipmentHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipmentHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		8BD224C12239240E0021C1B5 /* TrackingHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		8BD424A6222FE9CB00E08512 /* MonthAndYearViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthAndYearViewCell.swift; sourceTree = "<group>"; };
+		8BE4589F2246029000DDC9B9 /* VerifyOtpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyOtpViewController.swift; sourceTree = "<group>"; };
+		8BE458A122460B9A00DDC9B9 /* CustomTextfieldOTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextfieldOTP.swift; sourceTree = "<group>"; };
+		8BE458A522461E5600DDC9B9 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		8BE458A72246373B00DDC9B9 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		8BE458A92246569A00DDC9B9 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		8BF89E8C223629F600C182BA /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		8BFBC37E225159E700DD0626 /* UploadDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadDocumentViewController.swift; sourceTree = "<group>"; };
+		9522CC1E0A8E12EE4733FE3B /* Pods-Rodafleets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rodafleets.debug.xcconfig"; path = "Target Support Files/Pods-Rodafleets/Pods-Rodafleets.debug.xcconfig"; sourceTree = "<group>"; };
+		B399A21262E8A2385811B648 /* Pods-Rodafleets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rodafleets.release.xcconfig"; path = "Target Support Files/Pods-Rodafleets/Pods-Rodafleets.release.xcconfig"; sourceTree = "<group>"; };
+		D493C7592F3696DAA392914D /* Pods-RodafleetsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RodafleetsTests.debug.xcconfig"; path = "Target Support Files/Pods-RodafleetsTests/Pods-RodafleetsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA88E5A0BB7D3FEE56FBFF44 /* Pods_Rodafleets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rodafleets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1D833F8D491955A7E15DC8 /* Pods_RodafleetsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RodafleetsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B66E329221313CB0000F22A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC42CCC4B7E40E061B7199B /* Pods_Rodafleets.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B66E33D221313D00000F22A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9301CA62AAFF2A62D5FECC7E /* Pods_RodafleetsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B66E348221313D00000F22A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDDEE7264F4D5C5E41E4E85 /* Pods_RodafleetsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B66E323221313CB0000F22A = {
+			isa = PBXGroup;
+			children = (
+				8B66E32E221313CB0000F22A /* Rodafleets */,
+				8B66E343221313D00000F22A /* RodafleetsTests */,
+				8B66E34E221313D00000F22A /* RodafleetsUITests */,
+				8B66E32D221313CB0000F22A /* Products */,
+				C59F96C02CE59BD13E0BBA42 /* Pods */,
+				9930DB99C6039B4E679151FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B66E32D221313CB0000F22A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E32C221313CB0000F22A /* Rodafleets.app */,
+				8B66E340221313D00000F22A /* RodafleetsTests.xctest */,
+				8B66E34B221313D00000F22A /* RodafleetsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B66E32E221313CB0000F22A /* Rodafleets */ = {
+			isa = PBXGroup;
+			children = (
+				8BCB88BE225616BA00973225 /* Rodafleets.entitlements */,
+				8BBE4A7622523E150007A355 /* RODAFLEETS-CUSTOMER.entitlements */,
+				8B66E32F221313CB0000F22A /* AppDelegate.swift */,
+				8BE458A422461E3E00DDC9B9 /* Modal */,
+				8B66E3AC22132AB30000F22A /* Font-Roda */,
+				8B66E3CE22132AD00000F22A /* Constants */,
+				8B66E3D022132AD00000F22A /* Views */,
+				8B66E3AF22132ACF0000F22A /* Controllers */,
+				8B66E336221313CF0000F22A /* Assets.xcassets */,
+				8B66E333221313CB0000F22A /* Main.storyboard */,
+				8B66E338221313CF0000F22A /* LaunchScreen.storyboard */,
+				8B66E33B221313CF0000F22A /* Info.plist */,
+				8BCB88BC22560F4700973225 /* GoogleService-Info.plist */,
+			);
+			path = Rodafleets;
+			sourceTree = "<group>";
+		};
+		8B66E343221313D00000F22A /* RodafleetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E344221313D00000F22A /* RODAFLEETS_CUSTOMERTests.swift */,
+				8B66E346221313D00000F22A /* Info.plist */,
+			);
+			path = RodafleetsTests;
+			sourceTree = "<group>";
+		};
+		8B66E34E221313D00000F22A /* RodafleetsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E34F221313D00000F22A /* RODAFLEETS_CUSTOMERUITests.swift */,
+				8B66E351221313D00000F22A /* Info.plist */,
+			);
+			path = RodafleetsUITests;
+			sourceTree = "<group>";
+		};
+		8B66E3AC22132AB30000F22A /* Font-Roda */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3AD22132AB30000F22A /* bahnschrift.ttf */,
+				8BE458A322461E3300DDC9B9 /* Modal */,
+			);
+			name = "Font-Roda";
+			path = "../../Rodafleets-Customerrr/Rodafleets-Customer/Font-Roda";
+			sourceTree = "<group>";
+		};
+		8B66E3AF22132ACF0000F22A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3B722132AD00000F22A /* ContactUsViewController.swift */,
+				8B66E3B822132AD00000F22A /* AboutRodafleetsViewController.swift */,
+				8B66E3CA22132AD00000F22A /* ReferAndEarnViewController.swift */,
+				8BE127C522421CBE007052C1 /* LoginControllers */,
+				8B66E3C422132AD00000F22A /* HomeViewControllers */,
+				8BF89E8E223631E100C182BA /* NewBookingControllers */,
+				8B66E3B022132ACF0000F22A /* CompletedOrdersControllers */,
+				8B66E3B322132AD00000F22A /* NotificationController */,
+				8B66E3B922132AD00000F22A /* SettingsControllers */,
+				8B66E3BB22132AD00000F22A /* Order Details */,
+				8B66E3C122132AD00000F22A /* MyBookingsControllers */,
+				8B66E3CB22132AD00000F22A /* ReviewControllers */,
+			);
+			name = Controllers;
+			path = "../../Rodafleets-Customerrr/Rodafleets-Customer/Controllers";
+			sourceTree = "<group>";
+		};
+		8B66E3B022132ACF0000F22A /* CompletedOrdersControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3B222132ACF0000F22A /* CompletedOrdersViewController.swift */,
+				8B66E3B122132ACF0000F22A /* CompletedOrdersTableViewCell.swift */,
+			);
+			path = CompletedOrdersControllers;
+			sourceTree = "<group>";
+		};
+		8B66E3B322132AD00000F22A /* NotificationController */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3B522132AD00000F22A /* NotificationViewController.swift */,
+				8B66E3B422132AD00000F22A /* NotificationTableViewCell.swift */,
+			);
+			path = NotificationController;
+			sourceTree = "<group>";
+		};
+		8B66E3B922132AD00000F22A /* SettingsControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3BA22132AD00000F22A /* SettingsViewController.swift */,
+			);
+			path = SettingsControllers;
+			sourceTree = "<group>";
+		};
+		8B66E3BB22132AD00000F22A /* Order Details */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3BF22132AD00000F22A /* OrderDetailsViewController.swift */,
+				8B66E3BC22132AD00000F22A /* DistanceTableViewCell.swift */,
+				8B66E3BE22132AD00000F22A /* ShipmentTableViewCell.swift */,
+				8B66E3BD22132AD00000F22A /* TrackingTableViewCell.swift */,
+				8BD224BF223923FB0021C1B5 /* ShipmentHeaderTableViewCell.swift */,
+				8BD224C12239240E0021C1B5 /* TrackingHeaderTableViewCell.swift */,
+			);
+			path = "Order Details";
+			sourceTree = "<group>";
+		};
+		8B66E3C122132AD00000F22A /* MyBookingsControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3C322132AD00000F22A /* MyBookingsViewController.swift */,
+				8B66E3C222132AD00000F22A /* BookingsTableViewCell.swift */,
+				8BD424A6222FE9CB00E08512 /* MonthAndYearViewCell.swift */,
+			);
+			path = MyBookingsControllers;
+			sourceTree = "<group>";
+		};
+		8B66E3C422132AD00000F22A /* HomeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3C922132AD00000F22A /* HomeViewController.swift */,
+				8B66E3C622132AD00000F22A /* HomeTableViewCell.swift */,
+				8B66E3C522132AD00000F22A /* StatusTableViewCell.swift */,
+				8B66E3C722132AD00000F22A /* HomeMenuTableViewCell.swift */,
+				8B66E3C822132AD00000F22A /* TitlesCollectionViewCell.swift */,
+				8BF89E8C223629F600C182BA /* ImageCollectionViewCell.swift */,
+			);
+			path = HomeViewControllers;
+			sourceTree = "<group>";
+		};
+		8B66E3CB22132AD00000F22A /* ReviewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3CD22132AD00000F22A /* ReviewViewController.swift */,
+				8B66E3CC22132AD00000F22A /* ReviewTableViewCell.swift */,
+			);
+			path = ReviewControllers;
+			sourceTree = "<group>";
+		};
+		8B66E3CE22132AD00000F22A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3CF22132AD00000F22A /* Constants.swift */,
+				8B4870C3222D04EA0085CCAD /* MyUtility.swift */,
+			);
+			name = Constants;
+			path = "../../Rodafleets-Customerrr/Rodafleets-Customer/Constants";
+			sourceTree = "<group>";
+		};
+		8B66E3D022132AD00000F22A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3D422132AD00000F22A /* CustomTopView.swift */,
+				8B66E3D722132AD00000F22A /* CustomBorderView.swift */,
+				8B300E01222559A5007F9F03 /* CustomColorView.swift */,
+				8B66E3D522132AD00000F22A /* CustomTextField.swift */,
+				8B66E3D922132AD00000F22A /* CustomTextView.swift */,
+				8B66E3D322132AD00000F22A /* CustomButton.swift */,
+				8B66E3D222132AD00000F22A /* CustomGradientView.swift */,
+				8B66E3D822132AD00000F22A /* CustomTextfieldNew.swift */,
+				8B300E0322256954007F9F03 /* RatingControl.swift */,
+				8BC13CE922268FEB0042138A /* DatePicker.swift */,
+				8B2085452227E76500DCCEB9 /* UDCornerTagView.swift */,
+				8BE458A122460B9A00DDC9B9 /* CustomTextfieldOTP.swift */,
+				8B496E4D224DF04200608B78 /* CustomTextfieldLogin.swift */,
+				8BBE4A6E22520DEA0007A355 /* CustomViewImage.swift */,
+			);
+			name = Views;
+			path = "../../Rodafleets-Customerrr/Rodafleets-Customer/Views";
+			sourceTree = "<group>";
+		};
+		8BE127C522421CBE007052C1 /* LoginControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B004196224A0F85006E786C /* MainViewController.swift */,
+				8B004192224A0E6F006E786C /* LoginViewController.swift */,
+				8B004194224A0E7F006E786C /* SignUPViewController.swift */,
+				8BE4589F2246029000DDC9B9 /* VerifyOtpViewController.swift */,
+				8B00419A224A4E55006E786C /* PopUpViewController.swift */,
+				8BFBC37E225159E700DD0626 /* UploadDocumentViewController.swift */,
+			);
+			path = LoginControllers;
+			sourceTree = "<group>";
+		};
+		8BE458A322461E3300DDC9B9 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		8BE458A422461E3E00DDC9B9 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				8BE458A72246373B00DDC9B9 /* Service.swift */,
+				8BE458A522461E5600DDC9B9 /* SignUp.swift */,
+				8BE458A92246569A00DDC9B9 /* Login.swift */,
+				8B004198224A3AB5006E786C /* VerifyNumber.swift */,
+				8B1A7462224B8195000188F1 /* ResendOTP.swift */,
+				8BBE4A74225237E50007A355 /* UploadDocument.swift */,
+				8BA683CD2253446F007D15B7 /* VehicleType.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		8BF89E8E223631E100C182BA /* NewBookingControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B66E3B622132AD00000F22A /* NewBookingViewController.swift */,
+				8B2085472227F40100DCCEB9 /* MapViewController.swift */,
+			);
+			path = NewBookingControllers;
+			sourceTree = "<group>";
+		};
+		9930DB99C6039B4E679151FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA88E5A0BB7D3FEE56FBFF44 /* Pods_Rodafleets.framework */,
+				EF1D833F8D491955A7E15DC8 /* Pods_RodafleetsTests.framework */,
+				1DB3D8CAD5C25284003A1710 /* Pods_RodafleetsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C59F96C02CE59BD13E0BBA42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9522CC1E0A8E12EE4733FE3B /* Pods-Rodafleets.debug.xcconfig */,
+				B399A21262E8A2385811B648 /* Pods-Rodafleets.release.xcconfig */,
+				D493C7592F3696DAA392914D /* Pods-RodafleetsTests.debug.xcconfig */,
+				7F6AE917732A78BE18EC7D4A /* Pods-RodafleetsTests.release.xcconfig */,
+				6F9633B15704085C792981D9 /* Pods-RodafleetsUITests.debug.xcconfig */,
+				46B4C365761C27590781A0F3 /* Pods-RodafleetsUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B66E32B221313CB0000F22A /* Rodafleets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B66E354221313D00000F22A /* Build configuration list for PBXNativeTarget "Rodafleets" */;
+			buildPhases = (
+				91CC4BDEF940B426770B1741 /* [CP] Check Pods Manifest.lock */,
+				8B66E328221313CB0000F22A /* Sources */,
+				8B66E329221313CB0000F22A /* Frameworks */,
+				8B66E32A221313CB0000F22A /* Resources */,
+				8C30DF8DF8A0EBD852CE8CC9 /* [CP] Embed Pods Frameworks */,
+				479EEB65DA0B38F4A95227B8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rodafleets;
+			productName = "RODAFLEETS-CUSTOMER";
+			productReference = 8B66E32C221313CB0000F22A /* Rodafleets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B66E33F221313D00000F22A /* RodafleetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B66E357221313D00000F22A /* Build configuration list for PBXNativeTarget "RodafleetsTests" */;
+			buildPhases = (
+				DB6856375EF1CB92AAA2A3D1 /* [CP] Check Pods Manifest.lock */,
+				8B66E33C221313D00000F22A /* Sources */,
+				8B66E33D221313D00000F22A /* Frameworks */,
+				8B66E33E221313D00000F22A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B66E342221313D00000F22A /* PBXTargetDependency */,
+			);
+			name = RodafleetsTests;
+			productName = "RODAFLEETS-CUSTOMERTests";
+			productReference = 8B66E340221313D00000F22A /* RodafleetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B66E34A221313D00000F22A /* RodafleetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B66E35A221313D00000F22A /* Build configuration list for PBXNativeTarget "RodafleetsUITests" */;
+			buildPhases = (
+				754AC6487E027B09374C47F4 /* [CP] Check Pods Manifest.lock */,
+				8B66E347221313D00000F22A /* Sources */,
+				8B66E348221313D00000F22A /* Frameworks */,
+				8B66E349221313D00000F22A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B66E34D221313D00000F22A /* PBXTargetDependency */,
+			);
+			name = RodafleetsUITests;
+			productName = "RODAFLEETS-CUSTOMERUITests";
+			productReference = 8B66E34B221313D00000F22A /* RodafleetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B66E324221313CB0000F22A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Neuweg Technologies";
+				TargetAttributes = {
+					8B66E32B221313CB0000F22A = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					8B66E33F221313D00000F22A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8B66E32B221313CB0000F22A;
+					};
+					8B66E34A221313D00000F22A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8B66E32B221313CB0000F22A;
+					};
+				};
+			};
+			buildConfigurationList = 8B66E327221313CB0000F22A /* Build configuration list for PBXProject "Rodafleets" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B66E323221313CB0000F22A;
+			productRefGroup = 8B66E32D221313CB0000F22A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B66E32B221313CB0000F22A /* Rodafleets */,
+				8B66E33F221313D00000F22A /* RodafleetsTests */,
+				8B66E34A221313D00000F22A /* RodafleetsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B66E32A221313CB0000F22A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B66E33A221313CF0000F22A /* LaunchScreen.storyboard in Resources */,
+				8B66E337221313CF0000F22A /* Assets.xcassets in Resources */,
+				8B66E335221313CB0000F22A /* Main.storyboard in Resources */,
+				8BCB88BD22560F4700973225 /* GoogleService-Info.plist in Resources */,
+				8B66E3AE22132AB30000F22A /* bahnschrift.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B66E33E221313D00000F22A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B66E349221313D00000F22A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		479EEB65DA0B38F4A95227B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rodafleets/Pods-Rodafleets-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rodafleets/Pods-Rodafleets-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		754AC6487E027B09374C47F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RodafleetsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C30DF8DF8A0EBD852CE8CC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rodafleets/Pods-Rodafleets-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TRON/TRON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TRON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rodafleets/Pods-Rodafleets-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91CC4BDEF940B426770B1741 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rodafleets-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB6856375EF1CB92AAA2A3D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RodafleetsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B66E328221313CB0000F22A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B66E3EC22132AD00000F22A /* TitlesCollectionViewCell.swift in Sources */,
+				8BE458A02246029000DDC9B9 /* VerifyOtpViewController.swift in Sources */,
+				8BC13CEA22268FEB0042138A /* DatePicker.swift in Sources */,
+				8B300E0422256954007F9F03 /* RatingControl.swift in Sources */,
+				8BD224C22239240E0021C1B5 /* TrackingHeaderTableViewCell.swift in Sources */,
+				8B66E3EF22132AD00000F22A /* ReviewTableViewCell.swift in Sources */,
+				8B2085462227E76500DCCEB9 /* UDCornerTagView.swift in Sources */,
+				8B66E3E322132AD00000F22A /* TrackingTableViewCell.swift in Sources */,
+				8B66E3E422132AD00000F22A /* ShipmentTableViewCell.swift in Sources */,
+				8B66E3F422132AD00000F22A /* CustomButton.swift in Sources */,
+				8B00419B224A4E55006E786C /* PopUpViewController.swift in Sources */,
+				8B300E02222559A5007F9F03 /* CustomColorView.swift in Sources */,
+				8B66E3E822132AD00000F22A /* MyBookingsViewController.swift in Sources */,
+				8BE458A622461E5600DDC9B9 /* SignUp.swift in Sources */,
+				8BE458A222460B9A00DDC9B9 /* CustomTextfieldOTP.swift in Sources */,
+				8B66E3F522132AD00000F22A /* CustomTopView.swift in Sources */,
+				8BD424A7222FE9CC00E08512 /* MonthAndYearViewCell.swift in Sources */,
+				8B66E3DC22132AD00000F22A /* NotificationTableViewCell.swift in Sources */,
+				8B66E3F122132AD00000F22A /* Constants.swift in Sources */,
+				8B496E4E224DF04200608B78 /* CustomTextfieldLogin.swift in Sources */,
+				8BA683CE2253446F007D15B7 /* VehicleType.swift in Sources */,
+				8B66E3FA22132AD00000F22A /* CustomTextView.swift in Sources */,
+				8BE458AA2246569A00DDC9B9 /* Login.swift in Sources */,
+				8BF89E8D223629F600C182BA /* ImageCollectionViewCell.swift in Sources */,
+				8BD224C0223923FB0021C1B5 /* ShipmentHeaderTableViewCell.swift in Sources */,
+				8B4870C4222D04EA0085CCAD /* MyUtility.swift in Sources */,
+				8B66E3E522132AD00000F22A /* OrderDetailsViewController.swift in Sources */,
+				8B66E3ED22132AD00000F22A /* HomeViewController.swift in Sources */,
+				8B66E3EA22132AD00000F22A /* HomeTableViewCell.swift in Sources */,
+				8B66E3EB22132AD00000F22A /* HomeMenuTableViewCell.swift in Sources */,
+				8B004195224A0E7F006E786C /* SignUPViewController.swift in Sources */,
+				8B004193224A0E6F006E786C /* LoginViewController.swift in Sources */,
+				8B66E3EE22132AD00000F22A /* ReferAndEarnViewController.swift in Sources */,
+				8B004199224A3AB5006E786C /* VerifyNumber.swift in Sources */,
+				8B66E3E722132AD00000F22A /* BookingsTableViewCell.swift in Sources */,
+				8B66E3F922132AD00000F22A /* CustomTextfieldNew.swift in Sources */,
+				8B66E3DD22132AD00000F22A /* NotificationViewController.swift in Sources */,
+				8BFBC37F225159E800DD0626 /* UploadDocumentViewController.swift in Sources */,
+				8B66E3E122132AD00000F22A /* SettingsViewController.swift in Sources */,
+				8B66E3F622132AD00000F22A /* CustomTextField.swift in Sources */,
+				8B66E3E922132AD00000F22A /* StatusTableViewCell.swift in Sources */,
+				8B66E3F822132AD00000F22A /* CustomBorderView.swift in Sources */,
+				8B66E3DF22132AD00000F22A /* ContactUsViewController.swift in Sources */,
+				8BBE4A6F22520DEA0007A355 /* CustomViewImage.swift in Sources */,
+				8BBE4A75225237E50007A355 /* UploadDocument.swift in Sources */,
+				8B66E3F022132AD00000F22A /* ReviewViewController.swift in Sources */,
+				8B66E3DB22132AD00000F22A /* CompletedOrdersViewController.swift in Sources */,
+				8B66E3DA22132AD00000F22A /* CompletedOrdersTableViewCell.swift in Sources */,
+				8B66E3E222132AD00000F22A /* DistanceTableViewCell.swift in Sources */,
+				8B2085482227F40100DCCEB9 /* MapViewController.swift in Sources */,
+				8B004197224A0F85006E786C /* MainViewController.swift in Sources */,
+				8BE458A82246373B00DDC9B9 /* Service.swift in Sources */,
+				8B66E3DE22132AD00000F22A /* NewBookingViewController.swift in Sources */,
+				8B66E330221313CB0000F22A /* AppDelegate.swift in Sources */,
+				8B66E3E022132AD00000F22A /* AboutRodafleetsViewController.swift in Sources */,
+				8B1A7463224B8195000188F1 /* ResendOTP.swift in Sources */,
+				8B66E3F322132AD00000F22A /* CustomGradientView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B66E33C221313D00000F22A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B66E345221313D00000F22A /* RODAFLEETS_CUSTOMERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B66E347221313D00000F22A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B66E350221313D00000F22A /* RODAFLEETS_CUSTOMERUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B66E342221313D00000F22A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B66E32B221313CB0000F22A /* Rodafleets */;
+			targetProxy = 8B66E341221313D00000F22A /* PBXContainerItemProxy */;
+		};
+		8B66E34D221313D00000F22A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B66E32B221313CB0000F22A /* Rodafleets */;
+			targetProxy = 8B66E34C221313D00000F22A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B66E333221313CB0000F22A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B66E334221313CB0000F22A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B66E338221313CF0000F22A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B66E339221313CF0000F22A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B66E352221313D00000F22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B66E353221313D00000F22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B66E355221313D00000F22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9522CC1E0A8E12EE4733FE3B /* Pods-Rodafleets.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rodafleets/Rodafleets.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = Rodafleets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nt.rodacustomer;
+				PRODUCT_NAME = Rodafleets;
+				PROVISIONING_PROFILE_SPECIFIER = "Roda Customer Development";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8B66E356221313D00000F22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B399A21262E8A2385811B648 /* Pods-Rodafleets.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rodafleets/Rodafleets.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = Rodafleets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nt.rodacustomer;
+				PRODUCT_NAME = Rodafleets;
+				PROVISIONING_PROFILE_SPECIFIER = "Roda Customer Development";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8B66E358221313D00000F22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D493C7592F3696DAA392914D /* Pods-RodafleetsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = "RODAFLEETS-CUSTOMERTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neuweg.RODAFLEETS-CUSTOMERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rodafleets.temp_caseinsensitive_rename.app/Rodafleets.temp_caseinsensitive_rename";
+			};
+			name = Debug;
+		};
+		8B66E359221313D00000F22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F6AE917732A78BE18EC7D4A /* Pods-RodafleetsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = "RODAFLEETS-CUSTOMERTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neuweg.RODAFLEETS-CUSTOMERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rodafleets.temp_caseinsensitive_rename.app/Rodafleets.temp_caseinsensitive_rename";
+			};
+			name = Release;
+		};
+		8B66E35B221313D00000F22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F9633B15704085C792981D9 /* Pods-RodafleetsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = "RODAFLEETS-CUSTOMERUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neuweg.RODAFLEETS-CUSTOMERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RODAFLEETS-CUSTOMER";
+			};
+			name = Debug;
+		};
+		8B66E35C221313D00000F22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B4C365761C27590781A0F3 /* Pods-RodafleetsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = "RODAFLEETS-CUSTOMERUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neuweg.RODAFLEETS-CUSTOMERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RODAFLEETS-CUSTOMER";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B66E327221313CB0000F22A /* Build configuration list for PBXProject "Rodafleets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B66E352221313D00000F22A /* Debug */,
+				8B66E353221313D00000F22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B66E354221313D00000F22A /* Build configuration list for PBXNativeTarget "Rodafleets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B66E355221313D00000F22A /* Debug */,
+				8B66E356221313D00000F22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B66E357221313D00000F22A /* Build configuration list for PBXNativeTarget "RodafleetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B66E358221313D00000F22A /* Debug */,
+				8B66E359221313D00000F22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B66E35A221313D00000F22A /* Build configuration list for PBXNativeTarget "RodafleetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B66E35B221313D00000F22A /* Debug */,
+				8B66E35C221313D00000F22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B66E324221313CB0000F22A /* Project object */;
+}
