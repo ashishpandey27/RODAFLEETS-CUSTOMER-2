@@ -15,7 +15,8 @@ pod 'SVProgressHUD'
 pod 'Firebase/Core'
 pod 'Firebase/Messaging'
 pod 'DropDown'
-pod 'SVProgressHUD'
+pod 'AlamofireImage'
+
 
   # Pods for Rodafleets
 

@@ -21,7 +21,7 @@
 		8B4870C4222D04EA0085CCAD /* MyUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4870C3222D04EA0085CCAD /* MyUtility.swift */; };
 		8B496E4E224DF04200608B78 /* CustomTextfieldLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B496E4D224DF04200608B78 /* CustomTextfieldLogin.swift */; };
 		8B66E330221313CB0000F22A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E32F221313CB0000F22A /* AppDelegate.swift */; };
-		8B66E335221313CB0000F22A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B66E333221313CB0000F22A /* Main.storyboard */; };
+		8B66E335221313CB0000F22A /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B66E333221313CB0000F22A /* Dashboard.storyboard */; };
 		8B66E337221313CF0000F22A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B66E336221313CF0000F22A /* Assets.xcassets */; };
 		8B66E33A221313CF0000F22A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B66E338221313CF0000F22A /* LaunchScreen.storyboard */; };
 		8B66E345221313D00000F22A /* RODAFLEETS_CUSTOMERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E344221313D00000F22A /* RODAFLEETS_CUSTOMERTests.swift */; };
@@ -57,9 +57,10 @@
 		8B66E3F822132AD00000F22A /* CustomBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D722132AD00000F22A /* CustomBorderView.swift */; };
 		8B66E3F922132AD00000F22A /* CustomTextfieldNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D822132AD00000F22A /* CustomTextfieldNew.swift */; };
 		8B66E3FA22132AD00000F22A /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E3D922132AD00000F22A /* CustomTextView.swift */; };
-		8BA683CE2253446F007D15B7 /* VehicleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA683CD2253446F007D15B7 /* VehicleType.swift */; };
+		8B847FD2225B502000F64A29 /* CityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B847FD1225B502000F64A29 /* CityListViewController.swift */; };
+		8BB37BBF225B5104004A14B1 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB37BBE225B5104004A14B1 /* CityTableViewCell.swift */; };
+		8BB37BC5225B7E25004A14B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB37BC4225B7E25004A14B1 /* Main.storyboard */; };
 		8BBE4A6F22520DEA0007A355 /* CustomViewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE4A6E22520DEA0007A355 /* CustomViewImage.swift */; };
-		8BBE4A75225237E50007A355 /* UploadDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE4A74225237E50007A355 /* UploadDocument.swift */; };
 		8BC13CEA22268FEB0042138A /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC13CE922268FEB0042138A /* DatePicker.swift */; };
 		8BCB88BD22560F4700973225 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BCB88BC22560F4700973225 /* GoogleService-Info.plist */; };
 		8BD224C0223923FB0021C1B5 /* ShipmentHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD224BF223923FB0021C1B5 /* ShipmentHeaderTableViewCell.swift */; };
@@ -112,7 +113,7 @@
 		8B496E4D224DF04200608B78 /* CustomTextfieldLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextfieldLogin.swift; sourceTree = "<group>"; };
 		8B66E32C221313CB0000F22A /* Rodafleets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rodafleets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B66E32F221313CB0000F22A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B66E334221313CB0000F22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B66E334221313CB0000F22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Dashboard.storyboard; sourceTree = "<group>"; };
 		8B66E336221313CF0000F22A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B66E339221313CF0000F22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B66E33B221313CF0000F22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -153,10 +154,10 @@
 		8B66E3D722132AD00000F22A /* CustomBorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBorderView.swift; sourceTree = "<group>"; };
 		8B66E3D822132AD00000F22A /* CustomTextfieldNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextfieldNew.swift; sourceTree = "<group>"; };
 		8B66E3D922132AD00000F22A /* CustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
-		8BA683CD2253446F007D15B7 /* VehicleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleType.swift; sourceTree = "<group>"; };
+		8B847FD1225B502000F64A29 /* CityListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListViewController.swift; sourceTree = "<group>"; };
+		8BB37BBE225B5104004A14B1 /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		8BB37BC4225B7E25004A14B1 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8BBE4A6E22520DEA0007A355 /* CustomViewImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewImage.swift; sourceTree = "<group>"; };
-		8BBE4A74225237E50007A355 /* UploadDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadDocument.swift; sourceTree = "<group>"; };
-		8BBE4A7622523E150007A355 /* RODAFLEETS-CUSTOMER.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "RODAFLEETS-CUSTOMER.entitlements"; sourceTree = "<group>"; };
 		8BC13CE922268FEB0042138A /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
 		8BCB88BC22560F4700973225 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8BCB88BE225616BA00973225 /* Rodafleets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rodafleets.entitlements; sourceTree = "<group>"; };
@@ -231,7 +232,6 @@
 			isa = PBXGroup;
 			children = (
 				8BCB88BE225616BA00973225 /* Rodafleets.entitlements */,
-				8BBE4A7622523E150007A355 /* RODAFLEETS-CUSTOMER.entitlements */,
 				8B66E32F221313CB0000F22A /* AppDelegate.swift */,
 				8BE458A422461E3E00DDC9B9 /* Modal */,
 				8B66E3AC22132AB30000F22A /* Font-Roda */,
@@ -239,7 +239,7 @@
 				8B66E3D022132AD00000F22A /* Views */,
 				8B66E3AF22132ACF0000F22A /* Controllers */,
 				8B66E336221313CF0000F22A /* Assets.xcassets */,
-				8B66E333221313CB0000F22A /* Main.storyboard */,
+				8BB37BC3225B58F9004A14B1 /* Storyboards */,
 				8B66E338221313CF0000F22A /* LaunchScreen.storyboard */,
 				8B66E33B221313CF0000F22A /* Info.plist */,
 				8BCB88BC22560F4700973225 /* GoogleService-Info.plist */,
@@ -281,7 +281,7 @@
 				8B66E3B722132AD00000F22A /* ContactUsViewController.swift */,
 				8B66E3B822132AD00000F22A /* AboutRodafleetsViewController.swift */,
 				8B66E3CA22132AD00000F22A /* ReferAndEarnViewController.swift */,
-				8BE127C522421CBE007052C1 /* LoginControllers */,
+				8BE127C522421CBE007052C1 /* LoginAndSignupControllers */,
 				8B66E3C422132AD00000F22A /* HomeViewControllers */,
 				8BF89E8E223631E100C182BA /* NewBookingControllers */,
 				8B66E3B022132ACF0000F22A /* CompletedOrdersControllers */,
@@ -398,7 +398,16 @@
 			path = "../../Rodafleets-Customerrr/Rodafleets-Customer/Views";
 			sourceTree = "<group>";
 		};
-		8BE127C522421CBE007052C1 /* LoginControllers */ = {
+		8BB37BC3225B58F9004A14B1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8BB37BC4225B7E25004A14B1 /* Main.storyboard */,
+				8B66E333221313CB0000F22A /* Dashboard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8BE127C522421CBE007052C1 /* LoginAndSignupControllers */ = {
 			isa = PBXGroup;
 			children = (
 				8B004196224A0F85006E786C /* MainViewController.swift */,
@@ -408,7 +417,7 @@
 				8B00419A224A4E55006E786C /* PopUpViewController.swift */,
 				8BFBC37E225159E700DD0626 /* UploadDocumentViewController.swift */,
 			);
-			path = LoginControllers;
+			path = LoginAndSignupControllers;
 			sourceTree = "<group>";
 		};
 		8BE458A322461E3300DDC9B9 /* Modal */ = {
@@ -426,8 +435,6 @@
 				8BE458A92246569A00DDC9B9 /* Login.swift */,
 				8B004198224A3AB5006E786C /* VerifyNumber.swift */,
 				8B1A7462224B8195000188F1 /* ResendOTP.swift */,
-				8BBE4A74225237E50007A355 /* UploadDocument.swift */,
-				8BA683CD2253446F007D15B7 /* VehicleType.swift */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -437,6 +444,8 @@
 			children = (
 				8B66E3B622132AD00000F22A /* NewBookingViewController.swift */,
 				8B2085472227F40100DCCEB9 /* MapViewController.swift */,
+				8B847FD1225B502000F64A29 /* CityListViewController.swift */,
+				8BB37BBE225B5104004A14B1 /* CityTableViewCell.swift */,
 			);
 			path = NewBookingControllers;
 			sourceTree = "<group>";
@@ -583,9 +592,10 @@
 			files = (
 				8B66E33A221313CF0000F22A /* LaunchScreen.storyboard in Resources */,
 				8B66E337221313CF0000F22A /* Assets.xcassets in Resources */,
-				8B66E335221313CB0000F22A /* Main.storyboard in Resources */,
+				8B66E335221313CB0000F22A /* Dashboard.storyboard in Resources */,
 				8BCB88BD22560F4700973225 /* GoogleService-Info.plist in Resources */,
 				8B66E3AE22132AB30000F22A /* bahnschrift.ttf in Resources */,
+				8BB37BC5225B7E25004A14B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,6 +674,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Rodafleets/Pods-Rodafleets-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
 				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
@@ -679,6 +690,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
@@ -762,10 +774,10 @@
 				8BE458A222460B9A00DDC9B9 /* CustomTextfieldOTP.swift in Sources */,
 				8B66E3F522132AD00000F22A /* CustomTopView.swift in Sources */,
 				8BD424A7222FE9CC00E08512 /* MonthAndYearViewCell.swift in Sources */,
+				8B847FD2225B502000F64A29 /* CityListViewController.swift in Sources */,
 				8B66E3DC22132AD00000F22A /* NotificationTableViewCell.swift in Sources */,
 				8B66E3F122132AD00000F22A /* Constants.swift in Sources */,
 				8B496E4E224DF04200608B78 /* CustomTextfieldLogin.swift in Sources */,
-				8BA683CE2253446F007D15B7 /* VehicleType.swift in Sources */,
 				8B66E3FA22132AD00000F22A /* CustomTextView.swift in Sources */,
 				8BE458AA2246569A00DDC9B9 /* Login.swift in Sources */,
 				8BF89E8D223629F600C182BA /* ImageCollectionViewCell.swift in Sources */,
@@ -783,13 +795,13 @@
 				8B66E3F922132AD00000F22A /* CustomTextfieldNew.swift in Sources */,
 				8B66E3DD22132AD00000F22A /* NotificationViewController.swift in Sources */,
 				8BFBC37F225159E800DD0626 /* UploadDocumentViewController.swift in Sources */,
+				8BB37BBF225B5104004A14B1 /* CityTableViewCell.swift in Sources */,
 				8B66E3E122132AD00000F22A /* SettingsViewController.swift in Sources */,
 				8B66E3F622132AD00000F22A /* CustomTextField.swift in Sources */,
 				8B66E3E922132AD00000F22A /* StatusTableViewCell.swift in Sources */,
 				8B66E3F822132AD00000F22A /* CustomBorderView.swift in Sources */,
 				8B66E3DF22132AD00000F22A /* ContactUsViewController.swift in Sources */,
 				8BBE4A6F22520DEA0007A355 /* CustomViewImage.swift in Sources */,
-				8BBE4A75225237E50007A355 /* UploadDocument.swift in Sources */,
 				8B66E3F022132AD00000F22A /* ReviewViewController.swift in Sources */,
 				8B66E3DB22132AD00000F22A /* CompletedOrdersViewController.swift in Sources */,
 				8B66E3DA22132AD00000F22A /* CompletedOrdersTableViewCell.swift in Sources */,
@@ -837,12 +849,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8B66E333221313CB0000F22A /* Main.storyboard */ = {
+		8B66E333221313CB0000F22A /* Dashboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8B66E334221313CB0000F22A /* Base */,
 			);
-			name = Main.storyboard;
+			name = Dashboard.storyboard;
 			sourceTree = "<group>";
 		};
 		8B66E338221313CF0000F22A /* LaunchScreen.storyboard */ = {
