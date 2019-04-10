@@ -768,7 +768,7 @@
                                                     <button opaque="NO" tag="33" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PRO-6S-LSg">
                                                         <rect key="frame" x="10" y="10" width="135" height="100"/>
                                                         <connections>
-                                                            <action selector="btn_done_action:" destination="bpf-4I-gYm" eventType="touchUpInside" id="2pe-I0-8F8"/>
+                                                            <action selector="btnClicked:" destination="bpf-4I-gYm" eventType="touchUpInside" id="Kc9-jz-K5G"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -833,7 +833,7 @@
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="btn_done_action:" destination="bpf-4I-gYm" eventType="touchUpInside" id="YpK-hk-xBh"/>
+                                                    <action selector="btn_done_action:" destination="bpf-4I-gYm" eventType="touchUpInside" id="jwQ-Hb-hEO"/>
                                                 </connections>
                                             </button>
                                         </subviews>

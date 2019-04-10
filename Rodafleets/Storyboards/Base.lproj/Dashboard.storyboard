@@ -1222,7 +1222,7 @@
                                                 <fontDescription key="fontDescription" name="Bahnschrift" family="Bahnschrift" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPD-2k-GI1">
+                                            <button opaque="NO" tag="51" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPD-2k-GI1">
                                                 <rect key="frame" x="16" y="198" width="343" height="30"/>
                                                 <connections>
                                                     <action selector="btn_pickupCity_action:" destination="5EJ-kq-MRD" eventType="touchUpInside" id="UKB-dU-g6z"/>
@@ -1259,13 +1259,16 @@
                                                     <action selector="pickup_selection:" destination="5EJ-kq-MRD" eventType="touchUpInside" id="ydr-Os-iSB"/>
                                                 </connections>
                                             </button>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WRY-mj-ZrC" customClass="CustomTextView" customModule="Rodafleets" customModuleProvider="target">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WRY-mj-ZrC" customClass="CustomTextView" customModule="Rodafleets" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="275" width="343" height="60"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="GKH-LD-L5w"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Set Drop Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYx-Qp-Apd">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set Drop Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYx-Qp-Apd">
                                                 <rect key="frame" x="49" y="435" width="115" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="115" id="g30-Kw-zfs"/>
@@ -1275,14 +1278,14 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="location" translatesAutoresizingMaskIntoConstraints="NO" id="cOT-Xf-Gbj">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location" translatesAutoresizingMaskIntoConstraints="NO" id="cOT-Xf-Gbj">
                                                 <rect key="frame" x="16" y="434" width="25" height="25"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="25" id="KNd-89-7vK"/>
                                                     <constraint firstAttribute="height" constant="25" id="a3l-JY-Gjd"/>
                                                 </constraints>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KCP-OP-ZKK" customClass="CustomTextView" customModule="Rodafleets" customModuleProvider="target">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KCP-OP-ZKK" customClass="CustomTextView" customModule="Rodafleets" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="461" width="343" height="60"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -1291,7 +1294,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="foE-zh-nj1">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="foE-zh-nj1">
                                                 <rect key="frame" x="254" y="435" width="105" height="20"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="20" id="h3X-cZ-7R2"/>
@@ -1305,7 +1308,7 @@
                                                     <action selector="drop_selection:" destination="5EJ-kq-MRD" eventType="touchUpInside" id="mn2-s5-xL5"/>
                                                 </connections>
                                             </button>
-                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mZm-WQ-YeQ">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mZm-WQ-YeQ">
                                                 <rect key="frame" x="0.0" y="521" width="375" height="60"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weight" translatesAutoresizingMaskIntoConstraints="NO" id="eHz-7f-hkm">
@@ -1347,15 +1350,15 @@
                                                     <constraint firstItem="UGr-ZO-01e" firstAttribute="leading" secondItem="eHz-7f-hkm" secondAttribute="trailing" constant="8" id="y7F-U6-Ba9"/>
                                                 </constraints>
                                             </view>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="truck" translatesAutoresizingMaskIntoConstraints="NO" id="coI-M8-Zof">
-                                                <rect key="frame" x="16" y="598" width="25" height="25"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="truck" translatesAutoresizingMaskIntoConstraints="NO" id="coI-M8-Zof">
+                                                <rect key="frame" x="16" y="596" width="25" height="25"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="25" id="PXJ-6U-Q38"/>
                                                     <constraint firstAttribute="width" constant="25" id="eYL-aa-6QO"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Type of Vehicle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJ6-nn-xOV">
-                                                <rect key="frame" x="49" y="603" width="140" height="12"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type of Vehicle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJ6-nn-xOV">
+                                                <rect key="frame" x="49" y="601" width="140" height="12"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="140" id="F8y-eE-5Fs"/>
                                                     <constraint firstAttribute="height" constant="12" id="gFp-Xv-dXM"/>
@@ -1364,7 +1367,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="  Select an Option" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZQ9-Ab-ed4" customClass="CustomTextfield" customModule="Rodafleets" customModuleProvider="target">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="  Select an Option" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZQ9-Ab-ed4" customClass="CustomTextfield" customModule="Rodafleets" customModuleProvider="target">
                                                 <rect key="frame" x="219" y="596" width="140" height="30"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -1375,15 +1378,15 @@
                                                 <fontDescription key="fontDescription" name="Bahnschrift" family="Bahnschrift" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="cargos" translatesAutoresizingMaskIntoConstraints="NO" id="G4V-R2-Lnq">
-                                                <rect key="frame" x="16" y="648" width="25" height="25"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cargos" translatesAutoresizingMaskIntoConstraints="NO" id="G4V-R2-Lnq">
+                                                <rect key="frame" x="16" y="646" width="25" height="25"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="25" id="3g3-B6-nb8"/>
                                                     <constraint firstAttribute="width" constant="25" id="8Cl-Gc-6pk"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Type of Cargo " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z8M-iw-aQI">
-                                                <rect key="frame" x="49" y="654" width="140" height="12"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type of Cargo " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z8M-iw-aQI">
+                                                <rect key="frame" x="49" y="652" width="140" height="12"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="12" id="5mR-kr-zpE"/>
                                                     <constraint firstAttribute="width" constant="140" id="ZXc-H2-HdZ"/>
@@ -1392,7 +1395,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="   Select an Option" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lZV-Mc-Ul9" customClass="CustomTextfield" customModule="Rodafleets" customModuleProvider="target">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="   Select an Option" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lZV-Mc-Ul9" customClass="CustomTextfield" customModule="Rodafleets" customModuleProvider="target">
                                                 <rect key="frame" x="219" y="646" width="140" height="30"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -1403,13 +1406,13 @@
                                                 <fontDescription key="fontDescription" name="Bahnschrift" family="Bahnschrift" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eeb-AW-50d">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eeb-AW-50d">
                                                 <rect key="frame" x="219" y="646" width="140" height="30"/>
                                                 <connections>
                                                     <action selector="btn_type_cago_action:" destination="5EJ-kq-MRD" eventType="touchUpInside" id="z19-z4-Ehh"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Select Drop City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="745-hp-xUg">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Drop City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="745-hp-xUg">
                                                 <rect key="frame" x="49" y="362" width="310" height="12"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="12" id="oMh-kI-xKN"/>
@@ -1418,14 +1421,14 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="location" translatesAutoresizingMaskIntoConstraints="NO" id="36c-nj-jMA">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location" translatesAutoresizingMaskIntoConstraints="NO" id="36c-nj-jMA">
                                                 <rect key="frame" x="16" y="356" width="25" height="25"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="25" id="G2X-ns-kM3"/>
                                                     <constraint firstAttribute="width" constant="25" id="Ws2-BQ-KsG"/>
                                                 </constraints>
                                             </imageView>
-                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="  Select Drop CIty" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DMd-Ij-bEM" customClass="DatePicker" customModule="Rodafleets" customModuleProvider="target">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="  Select Drop CIty" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DMd-Ij-bEM" customClass="DatePicker" customModule="Rodafleets" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="384" width="343" height="30"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -1435,19 +1438,19 @@
                                                 <fontDescription key="fontDescription" name="Bahnschrift" family="Bahnschrift" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="szh-LZ-GOD">
+                                            <button opaque="NO" tag="52" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="szh-LZ-GOD">
                                                 <rect key="frame" x="16" y="384" width="343" height="30"/>
                                                 <connections>
                                                     <action selector="btn_dropCity_action:" destination="5EJ-kq-MRD" eventType="touchUpInside" id="dH1-L6-szN"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o9s-U3-qVS">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o9s-U3-qVS">
                                                 <rect key="frame" x="219" y="596" width="140" height="30"/>
                                                 <connections>
                                                     <action selector="btn_vehicle_type_action:" destination="5EJ-kq-MRD" eventType="touchUpInside" id="4cg-7g-XTV"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6o-4I-ALg" customClass="CustomButton" customModule="Rodafleets" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6o-4I-ALg" customClass="CustomButton" customModule="Rodafleets" customModuleProvider="target">
                                                 <rect key="frame" x="70" y="716" width="235" height="35"/>
                                                 <color key="backgroundColor" red="0.96862745100000003" green="0.65490196079999996" blue="0.08235294118" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
@@ -1529,7 +1532,7 @@
                                             <constraint firstAttribute="trailing" secondItem="E6o-4I-ALg" secondAttribute="trailing" constant="70" id="jw8-CJ-GhK"/>
                                             <constraint firstItem="1kX-Ox-ccZ" firstAttribute="top" secondItem="Cs5-DZ-MZX" secondAttribute="bottom" constant="15" id="kGw-kh-lLE"/>
                                             <constraint firstItem="o9s-U3-qVS" firstAttribute="width" secondItem="ZQ9-Ab-ed4" secondAttribute="width" id="kwQ-az-7wb"/>
-                                            <constraint firstItem="coI-M8-Zof" firstAttribute="top" secondItem="mZm-WQ-YeQ" secondAttribute="bottom" constant="17" id="l3D-6R-N4e"/>
+                                            <constraint firstItem="coI-M8-Zof" firstAttribute="top" secondItem="mZm-WQ-YeQ" secondAttribute="bottom" constant="15" id="l3D-6R-N4e"/>
                                             <constraint firstItem="sPD-2k-GI1" firstAttribute="width" secondItem="f1r-cv-lav" secondAttribute="width" id="lfy-eg-XKa"/>
                                             <constraint firstItem="f1r-cv-lav" firstAttribute="top" secondItem="g6Y-QB-jpc" secondAttribute="bottom" constant="3" id="n24-I0-w5E"/>
                                             <constraint firstAttribute="trailing" secondItem="ZQ9-Ab-ed4" secondAttribute="trailing" constant="16" id="nEQ-jW-2MG"/>
@@ -1537,7 +1540,7 @@
                                             <constraint firstItem="sPD-2k-GI1" firstAttribute="leading" secondItem="f1r-cv-lav" secondAttribute="leading" id="p9r-hB-kG3"/>
                                             <constraint firstItem="KCP-OP-ZKK" firstAttribute="top" secondItem="bYx-Qp-Apd" secondAttribute="bottom" constant="5" id="qEV-uw-kJd"/>
                                             <constraint firstAttribute="trailing" secondItem="WRY-mj-ZrC" secondAttribute="trailing" constant="16" id="qYc-pE-TiP"/>
-                                            <constraint firstItem="pJ6-nn-xOV" firstAttribute="top" secondItem="mZm-WQ-YeQ" secondAttribute="bottom" constant="22" id="qjJ-cF-Nfq"/>
+                                            <constraint firstItem="pJ6-nn-xOV" firstAttribute="top" secondItem="mZm-WQ-YeQ" secondAttribute="bottom" constant="20" id="qjJ-cF-Nfq"/>
                                             <constraint firstItem="G4V-R2-Lnq" firstAttribute="leading" secondItem="Jc6-UH-Z0n" secondAttribute="leading" constant="16" id="sXH-6f-wc3"/>
                                             <constraint firstItem="Z8M-iw-aQI" firstAttribute="top" secondItem="pJ6-nn-xOV" secondAttribute="bottom" constant="39" id="sir-Vr-7iu"/>
                                             <constraint firstItem="foE-zh-nj1" firstAttribute="top" secondItem="DMd-Ij-bEM" secondAttribute="bottom" constant="21" id="tUA-sA-oLl"/>
@@ -1601,6 +1604,7 @@
                         <outlet property="pickupTextview" destination="WRY-mj-ZrC" id="Ggz-no-UJv"/>
                         <outlet property="txtFieldDesiredDate" destination="0M9-aY-Io8" id="ppH-Id-5vn"/>
                         <outlet property="txtfieldCargoType" destination="lZV-Mc-Ul9" id="V6p-Tf-fQF"/>
+                        <outlet property="txtfieldDropCity" destination="DMd-Ij-bEM" id="NsR-mO-8a5"/>
                         <outlet property="txtfieldEndDate" destination="DKG-Ay-7KC" id="mH2-bL-gcr"/>
                         <outlet property="txtfieldEstimatedWeight" destination="g3N-u3-J8l" id="vwv-W9-b0w"/>
                         <outlet property="txtfieldPickupCity" destination="f1r-cv-lav" id="kN2-kc-h0F"/>
@@ -1619,9 +1623,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Q5g-Nz-ZqK">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Q5g-Nz-ZqK">
+                                <rect key="frame" x="0.0" y="56" width="375" height="547"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellCity" id="BGr-IU-IL0" customClass="CityTableViewCell" customModule="Rodafleets" customModuleProvider="target">
@@ -1653,12 +1656,29 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="6oY-US-3KK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="MhN-zx-rSy"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Q5g-Nz-ZqK" firstAttribute="trailing" secondItem="7Zt-uK-5JK" secondAttribute="trailing" id="8MQ-tl-Ogs"/>
+                            <constraint firstItem="6oY-US-3KK" firstAttribute="top" secondItem="7Zt-uK-5JK" secondAttribute="top" id="UNB-9C-9BC"/>
+                            <constraint firstItem="6oY-US-3KK" firstAttribute="leading" secondItem="7Zt-uK-5JK" secondAttribute="leading" id="dXD-3Y-AF4"/>
+                            <constraint firstItem="Q5g-Nz-ZqK" firstAttribute="bottom" secondItem="7Zt-uK-5JK" secondAttribute="bottom" id="fKX-7Z-hkm"/>
+                            <constraint firstItem="Q5g-Nz-ZqK" firstAttribute="top" secondItem="6oY-US-3KK" secondAttribute="bottom" id="kTh-t6-YUu"/>
+                            <constraint firstItem="Q5g-Nz-ZqK" firstAttribute="leading" secondItem="7Zt-uK-5JK" secondAttribute="leading" id="r8O-OY-QN9"/>
+                            <constraint firstItem="6oY-US-3KK" firstAttribute="trailing" secondItem="7Zt-uK-5JK" secondAttribute="trailing" id="rMo-AK-DJY"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="7Zt-uK-5JK"/>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO" prompted="NO"/>
                     <connections>
+                        <outlet property="searchBar" destination="6oY-US-3KK" id="7aK-bd-Amz"/>
                         <outlet property="tableviewOBJ" destination="Q5g-Nz-ZqK" id="XtR-vH-ynJ"/>
                     </connections>
                 </viewController>
@@ -3455,7 +3475,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="YQY-UY-wWP">
             <objects>
-                <tabBarController storyboardIdentifier="TabBar" id="ehE-ou-Qlo" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tabBar" id="ehE-ou-Qlo" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GII-QG-Rif">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -3901,7 +3921,7 @@
         <!--Home-->
         <scene sceneID="Ezx-xj-ea2">
             <objects>
-                <navigationController storyboardIdentifier="tabBar" automaticallyAdjustsScrollViewInsets="NO" id="gUv-if-nDt" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gUv-if-nDt" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Home" image="home" id="aTl-Cg-Wtf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6oO-id-dGh">
