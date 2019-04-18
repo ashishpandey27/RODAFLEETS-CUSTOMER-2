@@ -13,15 +13,20 @@
 		8B004197224A0F85006E786C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B004196224A0F85006E786C /* MainViewController.swift */; };
 		8B004199224A3AB5006E786C /* VerifyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B004198224A3AB5006E786C /* VerifyNumber.swift */; };
 		8B00419B224A4E55006E786C /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B00419A224A4E55006E786C /* PopUpViewController.swift */; };
+		8B00EE00225F4D1D00B455A6 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B00EDFF225F4D1C00B455A6 /* Dashboard.storyboard */; };
+		8B0F6A5C22631EAA000AA9B9 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F6A5B22631EAA000AA9B9 /* ForgotPasswordViewController.swift */; };
+		8B170C0F225F2AF00026C620 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B170C0E225F2AF00026C620 /* CustomLabel.swift */; };
 		8B1A7463224B8195000188F1 /* ResendOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A7462224B8195000188F1 /* ResendOTP.swift */; };
 		8B2085462227E76500DCCEB9 /* UDCornerTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2085452227E76500DCCEB9 /* UDCornerTagView.swift */; };
 		8B2085482227F40100DCCEB9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2085472227F40100DCCEB9 /* MapViewController.swift */; };
+		8B2AD99222646F8F008554F8 /* BidListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AD99122646F8F008554F8 /* BidListTableViewCell.swift */; };
+		8B2AD99422646FD3008554F8 /* BidHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AD99322646FD3008554F8 /* BidHeaderTableViewCell.swift */; };
+		8B2AD9962264B5A7008554F8 /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AD9952264B5A7008554F8 /* ButtonTableViewCell.swift */; };
 		8B300E02222559A5007F9F03 /* CustomColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B300E01222559A5007F9F03 /* CustomColorView.swift */; };
 		8B300E0422256954007F9F03 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B300E0322256954007F9F03 /* RatingControl.swift */; };
 		8B4870C4222D04EA0085CCAD /* MyUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4870C3222D04EA0085CCAD /* MyUtility.swift */; };
 		8B496E4E224DF04200608B78 /* CustomTextfieldLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B496E4D224DF04200608B78 /* CustomTextfieldLogin.swift */; };
 		8B66E330221313CB0000F22A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E32F221313CB0000F22A /* AppDelegate.swift */; };
-		8B66E335221313CB0000F22A /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B66E333221313CB0000F22A /* Dashboard.storyboard */; };
 		8B66E337221313CF0000F22A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B66E336221313CF0000F22A /* Assets.xcassets */; };
 		8B66E33A221313CF0000F22A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B66E338221313CF0000F22A /* LaunchScreen.storyboard */; };
 		8B66E345221313D00000F22A /* RODAFLEETS_CUSTOMERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E344221313D00000F22A /* RODAFLEETS_CUSTOMERTests.swift */; };
@@ -71,8 +76,11 @@
 		8BE458A622461E5600DDC9B9 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE458A522461E5600DDC9B9 /* SignUp.swift */; };
 		8BE458A82246373B00DDC9B9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE458A72246373B00DDC9B9 /* Service.swift */; };
 		8BE458AA2246569A00DDC9B9 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE458A92246569A00DDC9B9 /* Login.swift */; };
+		8BF88B5722608CF300BE34FA /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF88B5622608CF300BE34FA /* Status.swift */; };
 		8BF89E8D223629F600C182BA /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF89E8C223629F600C182BA /* ImageCollectionViewCell.swift */; };
 		8BFBC37F225159E800DD0626 /* UploadDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBC37E225159E700DD0626 /* UploadDocumentViewController.swift */; };
+		8BFFF16B226724D60013F576 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFF16A226724D60013F576 /* ChangePasswordViewController.swift */; };
+		8BFFF16E226735520013F576 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFF16D226735520013F576 /* Validation.swift */; };
 		9301CA62AAFF2A62D5FECC7E /* Pods_RodafleetsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1D833F8D491955A7E15DC8 /* Pods_RodafleetsTests.framework */; };
 		CDDDEE7264F4D5C5E41E4E85 /* Pods_RodafleetsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB3D8CAD5C25284003A1710 /* Pods_RodafleetsUITests.framework */; };
 /* End PBXBuildFile section */
@@ -104,16 +112,21 @@
 		8B004196224A0F85006E786C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8B004198224A3AB5006E786C /* VerifyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyNumber.swift; sourceTree = "<group>"; };
 		8B00419A224A4E55006E786C /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		8B00EDFF225F4D1C00B455A6 /* Dashboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		8B0F6A5B22631EAA000AA9B9 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		8B170C0E225F2AF00026C620 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		8B1A7462224B8195000188F1 /* ResendOTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResendOTP.swift; sourceTree = "<group>"; };
 		8B2085452227E76500DCCEB9 /* UDCornerTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDCornerTagView.swift; sourceTree = "<group>"; };
 		8B2085472227F40100DCCEB9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8B2AD99122646F8F008554F8 /* BidListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidListTableViewCell.swift; sourceTree = "<group>"; };
+		8B2AD99322646FD3008554F8 /* BidHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		8B2AD9952264B5A7008554F8 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
 		8B300E01222559A5007F9F03 /* CustomColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColorView.swift; sourceTree = "<group>"; };
 		8B300E0322256954007F9F03 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		8B4870C3222D04EA0085CCAD /* MyUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUtility.swift; sourceTree = "<group>"; };
 		8B496E4D224DF04200608B78 /* CustomTextfieldLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextfieldLogin.swift; sourceTree = "<group>"; };
 		8B66E32C221313CB0000F22A /* Rodafleets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rodafleets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B66E32F221313CB0000F22A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B66E334221313CB0000F22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Dashboard.storyboard; sourceTree = "<group>"; };
 		8B66E336221313CF0000F22A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B66E339221313CF0000F22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B66E33B221313CF0000F22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -169,8 +182,11 @@
 		8BE458A522461E5600DDC9B9 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		8BE458A72246373B00DDC9B9 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		8BE458A92246569A00DDC9B9 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		8BF88B5622608CF300BE34FA /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 		8BF89E8C223629F600C182BA /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		8BFBC37E225159E700DD0626 /* UploadDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadDocumentViewController.swift; sourceTree = "<group>"; };
+		8BFFF16A226724D60013F576 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		8BFFF16D226735520013F576 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 		9522CC1E0A8E12EE4733FE3B /* Pods-Rodafleets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rodafleets.debug.xcconfig"; path = "Target Support Files/Pods-Rodafleets/Pods-Rodafleets.debug.xcconfig"; sourceTree = "<group>"; };
 		B399A21262E8A2385811B648 /* Pods-Rodafleets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rodafleets.release.xcconfig"; path = "Target Support Files/Pods-Rodafleets/Pods-Rodafleets.release.xcconfig"; sourceTree = "<group>"; };
 		D493C7592F3696DAA392914D /* Pods-RodafleetsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RodafleetsTests.debug.xcconfig"; path = "Target Support Files/Pods-RodafleetsTests/Pods-RodafleetsTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -284,11 +300,12 @@
 				8BE127C522421CBE007052C1 /* LoginAndSignupControllers */,
 				8B66E3C422132AD00000F22A /* HomeViewControllers */,
 				8BF89E8E223631E100C182BA /* NewBookingControllers */,
+				8B66E3C122132AD00000F22A /* MyBookingsControllers */,
 				8B66E3B022132ACF0000F22A /* CompletedOrdersControllers */,
 				8B66E3B322132AD00000F22A /* NotificationController */,
 				8B66E3B922132AD00000F22A /* SettingsControllers */,
+				8BFFF16C226726460013F576 /* PasswordControllers */,
 				8B66E3BB22132AD00000F22A /* Order Details */,
-				8B66E3C122132AD00000F22A /* MyBookingsControllers */,
 				8B66E3CB22132AD00000F22A /* ReviewControllers */,
 			);
 			name = Controllers;
@@ -330,6 +347,9 @@
 				8B66E3BD22132AD00000F22A /* TrackingTableViewCell.swift */,
 				8BD224BF223923FB0021C1B5 /* ShipmentHeaderTableViewCell.swift */,
 				8BD224C12239240E0021C1B5 /* TrackingHeaderTableViewCell.swift */,
+				8B2AD99122646F8F008554F8 /* BidListTableViewCell.swift */,
+				8B2AD99322646FD3008554F8 /* BidHeaderTableViewCell.swift */,
+				8B2AD9952264B5A7008554F8 /* ButtonTableViewCell.swift */,
 			);
 			path = "Order Details";
 			sourceTree = "<group>";
@@ -393,6 +413,7 @@
 				8BE458A122460B9A00DDC9B9 /* CustomTextfieldOTP.swift */,
 				8B496E4D224DF04200608B78 /* CustomTextfieldLogin.swift */,
 				8BBE4A6E22520DEA0007A355 /* CustomViewImage.swift */,
+				8B170C0E225F2AF00026C620 /* CustomLabel.swift */,
 			);
 			name = Views;
 			path = "../../Rodafleets-Customerrr/Rodafleets-Customer/Views";
@@ -402,7 +423,7 @@
 			isa = PBXGroup;
 			children = (
 				8BB37BC4225B7E25004A14B1 /* Main.storyboard */,
-				8B66E333221313CB0000F22A /* Dashboard.storyboard */,
+				8B00EDFF225F4D1C00B455A6 /* Dashboard.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -435,6 +456,8 @@
 				8BE458A92246569A00DDC9B9 /* Login.swift */,
 				8B004198224A3AB5006E786C /* VerifyNumber.swift */,
 				8B1A7462224B8195000188F1 /* ResendOTP.swift */,
+				8BF88B5622608CF300BE34FA /* Status.swift */,
+				8BFFF16D226735520013F576 /* Validation.swift */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -448,6 +471,15 @@
 				8BB37BBE225B5104004A14B1 /* CityTableViewCell.swift */,
 			);
 			path = NewBookingControllers;
+			sourceTree = "<group>";
+		};
+		8BFFF16C226726460013F576 /* PasswordControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B0F6A5B22631EAA000AA9B9 /* ForgotPasswordViewController.swift */,
+				8BFFF16A226724D60013F576 /* ChangePasswordViewController.swift */,
+			);
+			path = PasswordControllers;
 			sourceTree = "<group>";
 		};
 		9930DB99C6039B4E679151FE /* Frameworks */ = {
@@ -591,8 +623,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B66E33A221313CF0000F22A /* LaunchScreen.storyboard in Resources */,
+				8B00EE00225F4D1D00B455A6 /* Dashboard.storyboard in Resources */,
 				8B66E337221313CF0000F22A /* Assets.xcassets in Resources */,
-				8B66E335221313CB0000F22A /* Dashboard.storyboard in Resources */,
 				8BCB88BD22560F4700973225 /* GoogleService-Info.plist in Resources */,
 				8B66E3AE22132AB30000F22A /* bahnschrift.ttf in Resources */,
 				8BB37BC5225B7E25004A14B1 /* Main.storyboard in Resources */,
@@ -759,8 +791,11 @@
 			files = (
 				8B66E3EC22132AD00000F22A /* TitlesCollectionViewCell.swift in Sources */,
 				8BE458A02246029000DDC9B9 /* VerifyOtpViewController.swift in Sources */,
+				8B2AD9962264B5A7008554F8 /* ButtonTableViewCell.swift in Sources */,
 				8BC13CEA22268FEB0042138A /* DatePicker.swift in Sources */,
+				8B170C0F225F2AF00026C620 /* CustomLabel.swift in Sources */,
 				8B300E0422256954007F9F03 /* RatingControl.swift in Sources */,
+				8B2AD99222646F8F008554F8 /* BidListTableViewCell.swift in Sources */,
 				8BD224C22239240E0021C1B5 /* TrackingHeaderTableViewCell.swift in Sources */,
 				8B66E3EF22132AD00000F22A /* ReviewTableViewCell.swift in Sources */,
 				8B2085462227E76500DCCEB9 /* UDCornerTagView.swift in Sources */,
@@ -770,8 +805,10 @@
 				8B00419B224A4E55006E786C /* PopUpViewController.swift in Sources */,
 				8B300E02222559A5007F9F03 /* CustomColorView.swift in Sources */,
 				8B66E3E822132AD00000F22A /* MyBookingsViewController.swift in Sources */,
+				8BF88B5722608CF300BE34FA /* Status.swift in Sources */,
 				8BE458A622461E5600DDC9B9 /* SignUp.swift in Sources */,
 				8BE458A222460B9A00DDC9B9 /* CustomTextfieldOTP.swift in Sources */,
+				8B2AD99422646FD3008554F8 /* BidHeaderTableViewCell.swift in Sources */,
 				8B66E3F522132AD00000F22A /* CustomTopView.swift in Sources */,
 				8BD424A7222FE9CC00E08512 /* MonthAndYearViewCell.swift in Sources */,
 				8B847FD2225B502000F64A29 /* CityListViewController.swift in Sources */,
@@ -793,7 +830,9 @@
 				8B004199224A3AB5006E786C /* VerifyNumber.swift in Sources */,
 				8B66E3E722132AD00000F22A /* BookingsTableViewCell.swift in Sources */,
 				8B66E3F922132AD00000F22A /* CustomTextfieldNew.swift in Sources */,
+				8BFFF16B226724D60013F576 /* ChangePasswordViewController.swift in Sources */,
 				8B66E3DD22132AD00000F22A /* NotificationViewController.swift in Sources */,
+				8BFFF16E226735520013F576 /* Validation.swift in Sources */,
 				8BFBC37F225159E800DD0626 /* UploadDocumentViewController.swift in Sources */,
 				8BB37BBF225B5104004A14B1 /* CityTableViewCell.swift in Sources */,
 				8B66E3E122132AD00000F22A /* SettingsViewController.swift in Sources */,
@@ -811,6 +850,7 @@
 				8BE458A82246373B00DDC9B9 /* Service.swift in Sources */,
 				8B66E3DE22132AD00000F22A /* NewBookingViewController.swift in Sources */,
 				8B66E330221313CB0000F22A /* AppDelegate.swift in Sources */,
+				8B0F6A5C22631EAA000AA9B9 /* ForgotPasswordViewController.swift in Sources */,
 				8B66E3E022132AD00000F22A /* AboutRodafleetsViewController.swift in Sources */,
 				8B1A7463224B8195000188F1 /* ResendOTP.swift in Sources */,
 				8B66E3F322132AD00000F22A /* CustomGradientView.swift in Sources */,
@@ -849,14 +889,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8B66E333221313CB0000F22A /* Dashboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B66E334221313CB0000F22A /* Base */,
-			);
-			name = Dashboard.storyboard;
-			sourceTree = "<group>";
-		};
 		8B66E338221313CF0000F22A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
