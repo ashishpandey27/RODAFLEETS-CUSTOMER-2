@@ -26,6 +26,8 @@
 		8B300E0422256954007F9F03 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B300E0322256954007F9F03 /* RatingControl.swift */; };
 		8B4870C4222D04EA0085CCAD /* MyUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4870C3222D04EA0085CCAD /* MyUtility.swift */; };
 		8B496E4E224DF04200608B78 /* CustomTextfieldLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B496E4D224DF04200608B78 /* CustomTextfieldLogin.swift */; };
+		8B4A65692269D7D2006B5C38 /* StateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4A65682269D7D2006B5C38 /* StateViewController.swift */; };
+		8B4A656B2269D7F5006B5C38 /* StateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4A656A2269D7F5006B5C38 /* StateTableViewCell.swift */; };
 		8B66E330221313CB0000F22A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66E32F221313CB0000F22A /* AppDelegate.swift */; };
 		8B66E337221313CF0000F22A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B66E336221313CF0000F22A /* Assets.xcassets */; };
 		8B66E33A221313CF0000F22A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B66E338221313CF0000F22A /* LaunchScreen.storyboard */; };
@@ -125,6 +127,8 @@
 		8B300E0322256954007F9F03 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		8B4870C3222D04EA0085CCAD /* MyUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUtility.swift; sourceTree = "<group>"; };
 		8B496E4D224DF04200608B78 /* CustomTextfieldLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextfieldLogin.swift; sourceTree = "<group>"; };
+		8B4A65682269D7D2006B5C38 /* StateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewController.swift; sourceTree = "<group>"; };
+		8B4A656A2269D7F5006B5C38 /* StateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateTableViewCell.swift; sourceTree = "<group>"; };
 		8B66E32C221313CB0000F22A /* Rodafleets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rodafleets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B66E32F221313CB0000F22A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B66E336221313CF0000F22A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -222,6 +226,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B4A65662269D796006B5C38 /* CityControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B847FD1225B502000F64A29 /* CityListViewController.swift */,
+				8BB37BBE225B5104004A14B1 /* CityTableViewCell.swift */,
+			);
+			path = CityControllers;
+			sourceTree = "<group>";
+		};
+		8B4A65672269D79E006B5C38 /* StateControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B4A65682269D7D2006B5C38 /* StateViewController.swift */,
+				8B4A656A2269D7F5006B5C38 /* StateTableViewCell.swift */,
+			);
+			path = StateControllers;
+			sourceTree = "<group>";
+		};
 		8B66E323221313CB0000F22A = {
 			isa = PBXGroup;
 			children = (
@@ -298,13 +320,15 @@
 				8B66E3B822132AD00000F22A /* AboutRodafleetsViewController.swift */,
 				8B66E3CA22132AD00000F22A /* ReferAndEarnViewController.swift */,
 				8BE127C522421CBE007052C1 /* LoginAndSignupControllers */,
+				8BFFF16C226726460013F576 /* PasswordControllers */,
+				8B4A65672269D79E006B5C38 /* StateControllers */,
+				8B4A65662269D796006B5C38 /* CityControllers */,
 				8B66E3C422132AD00000F22A /* HomeViewControllers */,
 				8BF89E8E223631E100C182BA /* NewBookingControllers */,
 				8B66E3C122132AD00000F22A /* MyBookingsControllers */,
 				8B66E3B022132ACF0000F22A /* CompletedOrdersControllers */,
 				8B66E3B322132AD00000F22A /* NotificationController */,
 				8B66E3B922132AD00000F22A /* SettingsControllers */,
-				8BFFF16C226726460013F576 /* PasswordControllers */,
 				8B66E3BB22132AD00000F22A /* Order Details */,
 				8B66E3CB22132AD00000F22A /* ReviewControllers */,
 			);
@@ -467,8 +491,6 @@
 			children = (
 				8B66E3B622132AD00000F22A /* NewBookingViewController.swift */,
 				8B2085472227F40100DCCEB9 /* MapViewController.swift */,
-				8B847FD1225B502000F64A29 /* CityListViewController.swift */,
-				8BB37BBE225B5104004A14B1 /* CityTableViewCell.swift */,
 			);
 			path = NewBookingControllers;
 			sourceTree = "<group>";
@@ -843,6 +865,8 @@
 				8BBE4A6F22520DEA0007A355 /* CustomViewImage.swift in Sources */,
 				8B66E3F022132AD00000F22A /* ReviewViewController.swift in Sources */,
 				8B66E3DB22132AD00000F22A /* CompletedOrdersViewController.swift in Sources */,
+				8B4A656B2269D7F5006B5C38 /* StateTableViewCell.swift in Sources */,
+				8B4A65692269D7D2006B5C38 /* StateViewController.swift in Sources */,
 				8B66E3DA22132AD00000F22A /* CompletedOrdersTableViewCell.swift in Sources */,
 				8B66E3E222132AD00000F22A /* DistanceTableViewCell.swift in Sources */,
 				8B2085482227F40100DCCEB9 /* MapViewController.swift in Sources */,
