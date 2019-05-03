@@ -10,12 +10,12 @@ pod 'IQKeyboardManagerSwift'
 pod 'GoogleMaps'
 pod 'GooglePlaces'
 pod 'GooglePlacePicker'
-pod 'TRON', '4.0'
-pod 'SVProgressHUD'
 pod 'Firebase/Core'
-pod 'Firebase/Messaging'
+pod 'Firebase/Messaging' 
+pod 'SVProgressHUD'
 pod 'DropDown'
 pod 'AlamofireImage'
+pod ‘Alamofire','~> 4.5'
 
 
   # Pods for Rodafleets
